@@ -1,0 +1,5 @@
+title: Speedboat
+description: A post-Scrum operating model for AI-accelerated software teams
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
