@@ -17,11 +17,11 @@ Speedboat converts AI acceleration into customer impact by changing the question
 
 AI has materially changed the economics of software delivery on our team. Reading code, prototyping, refactoring, and producing demoable software are all dramatically faster. Our current loose two-week Scrum was designed for a slower implementation phase and risks turning that AI-driven speed into more half-finished work, more prototypes, more demos, without proportionally more customer impact.
 
-Speedboat is a lightweight weekly operating model that organises every piece of work into four lanes (Preview, Build, Land, Run) and runs on a steering rhythm of Monday Set Course, Wednesday Course Check, Friday Landing, and fortnightly Route Planning.
+Speedboat is a lightweight weekly operating model with three work lanes (Preview, Build, Run) and one outcome layer (Land). It runs on a steering rhythm of Monday Set Course, Wednesday Course Check, Friday Landing, and fortnightly Route Planning.
 
 I've aligned with our Product lead on the Preview and Landing model; they're supportive of running this as a trial.
 
-I'd like to run a 4–6 week trial inside my engineering group (~8 engineers) and report back. The trial is low-risk, requires no tooling investment, and is reversible. The intent is to learn whether this approach delivers more meaningful outcomes per week than our current sprint model.
+I'd like to run a 4–6 week trial inside my engineering group ([~x] engineers split into [y] teams) and report back. The trial is low-risk, requires no tooling investment, and is reversible. The intent is to learn whether this approach delivers more meaningful outcomes per week than our current sprint model.
 
 ---
 
@@ -42,16 +42,20 @@ The cost of starting has collapsed. The cost of finishing (judgement, integratio
 
 ## The model in one page
 
-### Lanes: every piece of work belongs to exactly one
+### Work lanes and outcome layer
 
-| Lane | What It Is | Constraints |
+| Element | What It Is | Constraints |
 |---|---|---|
 | **Preview** | Quick prototypes, PoCs or demos to learn and enable conversations | Max 2–3 active. 1–5 day timebox. Decision every Friday. |
 | **Build** | Production-grade work | Max 2–3 active. Standards unchanged. |
-| **Land** | Meaningful work reaching its beneficiary | Customer, Business, Platform, or Decision. |
 | **Run** | Visible operational work, split reactive/proactive | Aim ~20% capacity, track honestly. |
+| **Land** | The outcome when meaningful work reaches its beneficiary | Customer, Business, Platform, or Decision. Logged weekly. |
+
+Not all Landings mean the same thing. Customer Landings show delivered value. Business Landings show enablement. Platform Landings show capability and resilience. Decision Landings show learning. A healthy team may produce all four, but should not confuse learning or enablement with customer impact.
 
 ### Weekly rhythm: replaces sprint planning and standups
+
+The default rhythm is Monday / Wednesday / Friday, but teams should shift the cadence to match their working week. The important pattern is start-of-week steering, mid-week course correction, and end-of-week Landing.
 
 | Ceremony | Duration | Purpose |
 |---|---|---|
@@ -110,6 +114,16 @@ If any primary indicator moves the wrong way by the evaluation week with no good
 
 Diagnostics are for the team and for me; only the primary indicators are reported up.
 
+### Decision rights
+
+| Decision | Default owner |
+|---|---|
+| Intended Landing for the week | Product and Engineering together |
+| Preview decision: kill / park / continue / promote | Product and Engineering together |
+| Production readiness for Build | Engineering |
+| Priority of what enters Preview or Build | Product |
+| Run prioritisation during incidents | Engineering |
+
 ---
 
 ## Two policy notes
@@ -139,7 +153,7 @@ WIP limits are a steering rule, not a wall. Urgent Run, customer escalations, an
 
 ## The ask
 
-Endorsement to run a 4–6 week trial inside my engineering group (~8 engineers), with the following commitments from me:
+Endorsement to run a 4–6 week trial inside my engineering group, with the following commitments from me:
 
 - No additional tooling spend or process overhead on other teams during the trial.
 - Same quality, security, and release standards as today.

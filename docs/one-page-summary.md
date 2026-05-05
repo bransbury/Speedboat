@@ -8,21 +8,25 @@
 
 ---
 
-## LANES
+## WORK LANES + OUTCOMES
 
-**PREVIEW** — Quick prototypes, PoCs, or demos to learn and enable conversations.
+**PREVIEW, BUILD, and RUN** are the work lanes.
+
+**LAND** is the outcome layer: the moment meaningful work reaches its intended beneficiary.
+
+**PREVIEW**: Quick prototypes, PoCs, or demos to learn and enable conversations.
 Max 3 active. 1–5 day timebox. Decision every Friday: kill, park, continue, or promote.
 Two types: **Discovery** (should we build this?) and **Demo** (make it real for Sales/customers).
 
-**BUILD** — Production-grade capability work. Max 3 active. Quality bar unchanged.
+**BUILD**: Production-grade capability work. Max 3 active. Quality bar unchanged.
 Sources: promoted Previews, committed roadmap, customer needs, platform necessities.
 
-**LAND** — Meaningful work reaching its intended beneficiary. Every Landing has a type, a beneficiary, and an outcome.
+**LAND**: The outcome layer. A Landing is what we log when work reaches its intended beneficiary. Every Landing has a type, a beneficiary, and an outcome.
 | Customer | Business | Platform | Decision |
 |---|---|---|---|
 | Feature live, beta, fix deployed | Demo ready, GTM enabled | Debt removed, risk reduced | Preview killed/parked with learning |
 
-**RUN** — Visible operational work. Split reactive (incidents, escalations) and proactive (debt, upgrades, automation). Aim ≤20%. Track honestly.
+**RUN**: Visible operational work. Split reactive (incidents, escalations) and proactive (debt, upgrades, automation). Aim ≤20%. Track honestly.
 
 ---
 

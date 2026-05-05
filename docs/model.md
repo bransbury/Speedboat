@@ -2,7 +2,7 @@
 
 ## Why now
 
-Scrum was designed for a world where writing the code was the expensive part, that world has changed.
+Scrum was designed for a world where writing the code was the expensive part. That world has changed.
 
 AI now materially accelerates how quickly we can understand unfamiliar systems, generate implementation options, build prototypes, refactor, write tests, explore edge cases, and produce demo-ready versions of future functionality. The bottleneck is no longer "how quickly can we write the code?"
 
@@ -65,36 +65,49 @@ The operating model creates the structure. AI provides the acceleration within i
 
 ## The model
 
-Speedboat organises every piece of work into one of four lanes.
+Speedboat uses three work lanes: Preview, Build, and Run.
 
-**Preview → Build → Land → Run**
+Land is different. It is not a planning lane where work sits. It is the moment meaningful work reaches its intended beneficiary, and the outcome we log each week.
+
+**Preview / Build / Run -> Landing**
 
 ### Preview
 
 Quick prototypes, PoCs, or early demos that turn ideas into something tangible.
 
 - Two flavours: **Discovery** (should we build this?) and **Demo** (make it real for Sales/customer conversations).
-- Max 2–3 active. Timeboxed 1–5 working days.
-- Every active Preview gets a decision at Friday's Landing: kill, park, continue, promote, or use for enablement.
+- Max 3 active. Timeboxed 1–5 working days.
+- Every active Preview gets a decision at Friday's Landing: kill, park, continue, promote.
 
 ### Build
 
 Production-grade work: turning validated or committed ideas into capability that ships.
 
-- Max 2–3 active items at any time.
+- Max 3 active items at any time.
 - Quality bar is unchanged: tests, security, observability, rollout, support impact.
 - Sources: promoted Previews, committed roadmap, customer needs, platform necessities.
 - Once a Build item starts, new requests become the next Preview or the next Build. They don't expand the current one.
 
-### Land
+### Landings
 
-The heart of Speedboat: meaningful work reaching its intended beneficiary.
+Landings are the heart of Speedboat: meaningful outcomes reaching their intended beneficiary.
 
 - **Customer Landing:** feature live, beta, performance fix, real impact.
 - **Business Landing:** Sales demo ready, customer conversation supported, GTM enabled.
 - **Platform Landing:** debt removed, observability added, incident risk reduced.
 - **Decision Landing:** a Preview killed, parked, or promoted with clear rationale.
 - Every Landing must have a beneficiary, an outcome, and a reason it matters.
+
+### How to interpret Landings
+
+Not all Landings mean the same thing.
+
+- **Customer Landings** show delivered value.
+- **Business Landings** show commercial enablement.
+- **Platform Landings** show capability and resilience.
+- **Decision Landings** show learning and avoided waste.
+
+A healthy team may produce all four. The important distinction is not to confuse learning or enablement with customer impact.
 
 ### Run
 
@@ -104,6 +117,7 @@ The honest, visible stream of operational work that keeps the business healthy.
 - **Proactive Run:** tech debt, dependency upgrades, observability, automation, performance.
 - Target ~20% or less of capacity, but track the actual number honestly.
 - Repeated reactive work should generate proactive improvement work.
+- Proactive Run can count as a Landing when it creates a meaningful outcome, for example by reducing risk, improving reliability, or making future delivery easier.
 
 ---
 
@@ -111,12 +125,28 @@ The honest, visible stream of operational work that keeps the business healthy.
 
 Four light-touch checkpoints replace daily standups and two-week sprint planning.
 
+The default rhythm is Monday / Wednesday / Friday, but teams should shift the cadence to match their working week. The important pattern is start-of-week steering, mid-week course correction, and end-of-week Landing.
+
 | Ceremony | Duration | Purpose |
 |---|---|---|
 | Monday: Set Course | 30 min | Where are we going this week? Choose the intended Landing, confirm WIP, set ownership. |
 | Wednesday: Course Check | 15 min | Are we still on track? Surface blockers and create permission to course-correct before the week is lost. |
 | Friday: The Landing | 30 min | What landed, who benefited, what did we learn, and what decisions does each active Preview need? |
 | Fortnightly: Route Planning | 60 min | Shape the route ahead: upcoming work, what needs Preview before Build, risks, and slicing into landings. |
+
+---
+
+## Decision rights
+
+| Decision | Default owner |
+|---|---|
+| Intended Landing for the week | Product and Engineering together |
+| Preview decision: kill / park / continue / promote | Product and Engineering together |
+| Production readiness for Build | Engineering |
+| Priority of what enters Preview or Build | Product |
+| Run prioritisation during incidents | Engineering |
+
+When Product and Engineering disagree, escalate quickly through the team's normal leadership path rather than leaving work in limbo.
 
 ---
 

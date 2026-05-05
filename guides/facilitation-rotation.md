@@ -27,8 +27,6 @@
 | W2 | [Name] |
 | W3 | [Name] |
 | W4 | [Name] |
-| W5 | [Name] |
-| W6 | [Name] |
 
 Fill in during Week 0. If someone is out, the next person in the rotation covers and the order shifts.
 

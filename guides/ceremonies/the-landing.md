@@ -2,13 +2,15 @@
 
 **Duration:** 30 minutes
 **Facilitator:** Rotates weekly
-**When:** End of the week (last meeting on Friday)
+**When:** End of the week (Friday by default; shift to match your working week)
 
 ---
 
 ## Purpose
 
 Show what landed, decide every active Preview, capture learning. This is the heartbeat of Speedboat — the moment where progress becomes visible and decisions get made.
+
+A Landing is not a queue of work. It is the moment completed work becomes visible in terms of beneficiary and outcome.
 
 ---
 

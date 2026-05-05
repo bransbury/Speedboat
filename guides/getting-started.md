@@ -2,7 +2,7 @@
 
 This is your Week 0 checklist. Everything you need to go from "we're trying this" to "we're running it" in a single day.
 
-**Time to set up:** ~2 hours (board config + team intro)
+**Time to set up:** ~2 hours if you can edit your board yourself; longer if you need Jira admin help or workflow changes.
 **Prerequisite:** You've read the [One-Page Summary](../docs/one-page-summary.md) and your leadership has endorsed a trial (see [Leadership Brief](../docs/leadership-brief.md) if you need to make the case).
 
 ---
@@ -22,17 +22,29 @@ Make sure you can answer these questions:
 
 ## Week 0 Checklist
 
+### Minimum viable rollout
+
+If you want the smallest possible version for Week 1, start with this:
+
+- [ ] One board with Preview, Build, Run, and a visible way to mark Landings
+- [ ] One [Landing Log](../templates/landing-log.md)
+- [ ] One [Weekly Snapshot](../templates/weekly-snapshot.md)
+- [ ] One shared understanding of WIP limits and Preview decisions
+
+Do not wait for perfect dashboards, automation, or backlog cleanup. Week 1 should optimise for visibility, not tooling polish.
+
 ### Understand the model
 
 - [ ] Read the [One-Page Summary](../docs/one-page-summary.md) (~2 min)
 - [ ] Read the [full model](../docs/model.md) if you want the reasoning behind the design (~10 min)
 - [ ] Review the [Which Lane?](which-lane.md) decision tree. Make sure the lane boundaries feel clear to you before explaining them to the team.
+- [ ] Decide your boat boundaries if your wider group is larger than 5 engineers.
 
 ### Set up the board
 
 - [ ] Follow the [Jira Setup Guide](../setup/jira.md) (or adapt for your tool)
-- [ ] Configure columns, WIP limits, and custom fields
-- [ ] Create the saved filters and dashboard
+- [ ] Configure columns and WIP limits first; add custom fields, filters, and dashboards if you have the access and time
+- [ ] If Jira admin changes are slow, start with an existing board plus labels or conventions and tighten the setup later
 - [ ] Move existing in-flight work into the appropriate lanes. Don't wait for a clean start.
 
 ### Set up tracking
@@ -58,7 +70,7 @@ Make sure you can answer these questions:
 ### Introduce to the team
 
 - [ ] Walk through the one-page summary together
-- [ ] Explain the four lanes. Use the [Which Lane?](which-lane.md) decision tree for concrete examples from your own backlog.
+- [ ] Explain the three work lanes and the Land outcome layer. Use the [Which Lane?](which-lane.md) decision tree for concrete examples from your own backlog.
 - [ ] Be clear about what's changing (ceremonies, WIP limits, Landing focus) and what's not (quality bar, release standards, who decides what to build)
 - [ ] Address concerns openly. The common ones:
   - *"This feels like one-week sprints."* It's a steering rhythm, not a commitment cycle.
@@ -66,6 +78,15 @@ Make sure you can answer these questions:
   - *"What about my ongoing work?"* Move it into the right lane. Nothing resets to zero.
 - [ ] Agree on the trial length (4 weeks recommended)
 - [ ] Secure explicit opt-in. The team should want to try this, not feel it's being imposed.
+
+### Pick the first week's intended Landings
+
+Before the first Set Course, look at your current in-flight work and choose 1-2 intended Landings for Week 1.
+
+- [ ] Pick the items most likely to reach a real beneficiary this week
+- [ ] Prefer something already in motion over something new and hypothetical
+- [ ] If nothing can realistically land, choose the smallest meaningful partial outcome or an explicit Decision Landing
+- [ ] Name what you will not start yet
 
 ---
 
@@ -103,7 +124,7 @@ Give it time. Week 1 is about starting the habit, not proving the model.
 
 - [ ] **Week 2:** Run your first Route Planning session. Shape the next 2–4 weeks. Identify what needs a Preview before committing to Build.
 - [ ] **Weeks 2–3:** Tune. Adjust ceremony timing if needed. Fix confusion about which lane work belongs in. Watch for zombie Previews.
-- [ ] **Week 3:** Prepare for evaluation. Bookmark the [Trial Evaluation Template](../templates/trial-evaluation.md). Start gathering data from the Landing Log and snapshots.
+- [ ] **Week 3:** Prepare for evaluation. Bookmark the [Trial Evaluation Template](../templates/trial-evaluation.md). Start gathering data from the Landing Log, snapshots, and board.
 - [ ] **Week 4:** Evaluate. Fill in the trial evaluation. Run the [Team Survey](../templates/team-survey.md). Gather Product and Sales feedback. Decide: continue, adjust, expand, or stop.
 
 ---

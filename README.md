@@ -20,16 +20,27 @@ It replaces sprint commitments with a weekly steering rhythm. It replaces veloci
 
 ## How It Works
 
-Every piece of work belongs to one of four lanes:
+Speedboat has three work lanes and one outcome layer:
 
-| Lane | What It Is | Constraints |
+- **Preview:** quick prototypes, PoCs, or demos to learn fast
+- **Build:** production-grade work that ships
+- **Run:** operational work that keeps the lights on
+- **Land:** the meaningful outcome when work reaches a real beneficiary
+
+Work moves through three lanes, and the outcomes are logged as Landings:
+
+| Element | What It Is | Constraints |
 |---|---|---|
 | **Preview** | Quick prototypes, PoCs, or demos to learn fast | Max 3 active. 1–5 day timebox. Decision every Friday. |
 | **Build** | Production-grade work that ships | Max 3 active. Quality bar unchanged. |
-| **Land** | Meaningful outcomes reaching a real beneficiary | Customer, Business, Platform, or Decision. |
 | **Run** | Operational work that keeps the lights on | Reactive + Proactive. Aim ≤20%. Track honestly. |
+| **Land** | Meaningful outcomes reaching a real beneficiary | Customer, Business, Platform, or Decision. Logged weekly. |
+
+Not all Landings mean the same thing. Customer Landings show delivered value. Business Landings show enablement. Platform Landings show capability and resilience. Decision Landings show learning. A healthy team may produce all four, but should not confuse learning or enablement with customer impact.
 
 Four lightweight ceremonies replace sprint planning and daily standups:
+
+The default rhythm is Monday / Wednesday / Friday, but teams should shift the cadence to match their working week. The important pattern is start-of-week steering, mid-week course correction, and end-of-week Landing.
 
 | | | |
 |---|---|---|
@@ -99,7 +110,7 @@ speedboat/
 │   ├── landing-log.md              # Track what landed, for whom, and why
 │   ├── weekly-snapshot.md          # Friday summary for your team channel
 │   ├── preview-decision-record.md  # Capture every Preview decision
-│   ├── trial-evaluation.md         # Week 5 readout structure
+│   ├── trial-evaluation.md         # End-of-trial readout structure
 │   └── team-survey.md             # Anonymous team feedback survey
 ├── setup/
 │   └── jira.md                     # Step-by-step board configuration
@@ -123,6 +134,18 @@ speedboat/
 
 ---
 
+## Decision Rights
+
+| Decision | Default owner |
+|---|---|
+| Intended Landing for the week | Product and Engineering together |
+| Preview decision: kill / park / continue / promote | Product and Engineering together |
+| Production readiness for Build | Engineering |
+| Priority of what enters Preview or Build | Product |
+| Run prioritisation during incidents | Engineering |
+
+---
+
 ## Adapting Speedboat
 
 This repo is a starting point, not a prescription. Things you should change for your context:
@@ -132,7 +155,7 @@ This repo is a starting point, not a prescription. Things you should change for 
 - **Ceremony timing:** Monday/Wednesday/Friday assumes a co-located or overlapping-timezone team. Shift as needed.
 - **Landing types:** add types that matter to your business. Remove ones that don't.
 - **Run target:** 20% is a starting point. If your system is unstable, it might be 40%. Be honest about it.
-- **Trial length:** 4 weeks is enough to learn. Shorter is too noisy. Longer delays the decision.
+- **Trial length:** 4-6 weeks is enough to learn. Shorter is too noisy. Longer delays the decision.
 
 Fork the repo. Make it yours. If you learn something useful, consider opening a PR or sharing what you changed.
 

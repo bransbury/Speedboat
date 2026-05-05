@@ -8,13 +8,21 @@ Common questions, misconceptions, and real problems that come up during adoption
 
 ### "How is this different from one-week sprints?"
 
-Sprints have a commitment at the start and a review at the end. If you don't deliver, the sprint "failed." Speedboat has no sprint commitment. Monday sets a direction. Friday shows what happened. If something didn't land, it carries forward with a reason. There's no failure, just visibility.
+Sprints have a commitment at the start and a review at the end. If you don't deliver, the sprint "failed." Speedboat has no sprint commitment. The start-of-week ceremony sets a direction. The end-of-week Landing shows what happened. If something didn't land, it carries forward with a reason. There's no failure, just visibility.
 
 The cultural difference: sprints optimise for predictability. Speedboat optimises for learning and finishing.
 
 ### "What happened to story points?"
 
 Gone. Speedboat measures outcomes (Landings), not effort estimates. If you want to understand throughput, look at the Started vs. Landed ratio and Build age over time. These tell you more than points ever did.
+
+### "What if my team is bigger than 5?"
+
+Split into multiple boats, each with its own board/rhythm, coordinate through Route Planning and leadership/product sync rather than scaling a single ceremony set.
+
+### "Do I need to change team structure to try this?"
+
+Not necessarily; you can pilot the rhythm inside an existing group, but the model works best when a boat has clear ownership and limited coordination overhead.
 
 ### "Do we still have a backlog?"
 
@@ -105,7 +113,7 @@ Keep using it. Speedboat is for teams where Scrum has degraded or where AI has c
 ### "Can we use parts of Speedboat without adopting the whole thing?"
 
 Yes. The most portable pieces:
-- The four-lane categorisation (even within a sprint model)
+- The three work lanes plus Land outcome framing (even within a sprint model)
 - Friday Preview decisions (add to any existing cadence)
 - The Landing Log (works alongside any process)
 - The "start less, land more" principle (just a mindset shift)

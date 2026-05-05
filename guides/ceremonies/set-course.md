@@ -2,13 +2,13 @@
 
 **Duration:** 30 minutes
 **Facilitator:** Rotates weekly
-**When:** Start of the week (ideally first thing Monday)
+**When:** Start of the week (Monday by default; shift to match your working week)
 
 ---
 
 ## Purpose
 
-Agree what we intend to land this week. Everyone leaves knowing what they're working on and why.
+Agree what we intend to land this week. Everyone leaves knowing what they're working on and why. This guide assumes a single boat of 4–5 engineers.
 
 ---
 

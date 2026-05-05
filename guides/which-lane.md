@@ -2,6 +2,10 @@
 
 Use this when you're not sure where a piece of work belongs.
 
+Preview, Build, and Run are the work lanes.
+
+Land is not a lane you plan into. It's what you log when work reaches a meaningful outcome.
+
 ---
 
 ```

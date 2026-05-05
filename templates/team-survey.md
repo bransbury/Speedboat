@@ -11,7 +11,7 @@ For each question, respondents choose:
 
 | # | Question | What it tells you |
 |---|---|---|
-| 1 | I understand the four lanes (Preview, Build, Land, Run) and when to use each. | Is the model clear? |
+| 1 | I understand the three work lanes (Preview, Build, Run) and the Land outcome layer, and when to use each. | Is the model clear? |
 | 2 | The ceremonies (Set Course, Course Check, The Landing) feel useful, not like overhead. | Are the rituals earning their time? |
 | 3 | I feel more focused on meaningful work than before the trial. | Is WIP limiting working at the individual level? |
 | 4 | WIP limits are helping the team finish work, not just frustrating us. | Do limits feel like a tool or a constraint? |

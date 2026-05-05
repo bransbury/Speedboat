@@ -46,7 +46,7 @@ Record every Friday Preview decision here (or as fields on the Jira card — eit
 
 ## Summary View (update weekly)
 
-Use this to spot trends at a glance during Route Planning and the Week 5 evaluation.
+Use this to spot trends at a glance during Route Planning and the end-of-trial evaluation.
 
 | Week | Customer Landings | Business Landings | Platform Landings | Decision Landings | Total | Previews Killed | Previews Promoted | Run % (est.) |
 |---|---|---|---|---|---|---|---|---|

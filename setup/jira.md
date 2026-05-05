@@ -1,135 +1,219 @@
 # Speedboat — Jira Board Configuration Guide
 
 ## Overview
-This guide walks a Jira admin through setting up a Speedboat board from scratch. Time estimate: 20–30 minutes.
+This guide shows the easiest way to run Speedboat in Jira without admin access.
+
+The default recommendation is:
+
+- Use a **Kanban** board
+- Scope the board to one team label
+- Keep normal Jira columns such as **To Do / In Progress / Done**
+- Use **labels** to distinguish Preview, Build, Run, and Landings
+
+This is enough to start the model well. You do not need custom fields, custom workflows, or a dedicated Jira project for Week 1.
 
 ---
 
-## Step 1: Create the Project (or reconfigure existing)
+## Recommended setup
 
-Use a **Kanban** project template (not Scrum). Speedboat is continuous flow, not sprint-based.
+If you want Speedboat to be easy to adopt, use this setup:
 
----
+- One board label for team membership, for example `speedboat-teamname`
+- One work-type label on each issue: `preview`, `build`, or `run`
+- Optional labels where helpful: `landing`, `discovery`, `demo`
+- One shared Landing Log outside Jira
 
-## Step 2: Custom Fields
+This gives you four benefits immediately:
 
-Create the following custom fields (Text/Select as noted):
-
-| Field Name | Type | Options | Used On |
-|---|---|---|---|
-| Lane | Single Select | Preview, Build, Land, Run | All issues |
-| Preview Type | Single Select | Discovery, Demo | Preview items |
-| Timebox End Date | Date | — | Preview items |
-| Decision | Single Select | Kill, Park, Continue, Promote | Preview items |
-| Decision Rationale | Short Text | — | Preview items |
-| Code-Reuse Label | Single Select | Throwaway, Reference, Partial Reuse, Foundation | Promoted Previews |
-| Landing Type | Single Select | Customer, Business, Platform, Decision | Land items |
-| Beneficiary | Short Text | — | Land items |
-| Outcome Statement | Short Text | — | Land items |
-| Run Type | Single Select | Reactive, Proactive | Run items |
-| Source | Single Select | Promoted Preview, Roadmap, Customer Need, Platform Necessity | Build items |
+- No Jira admin dependency
+- No workflow redesign
+- Easy team-level scoping
+- Fast adoption this week
 
 ---
 
-## Step 3: Board Columns
+## Step 1: Create the board
 
-Configure the board with these columns (left to right):
+When Jira asks whether to use **Scrum** or **Kanban**, choose **Kanban**.
 
-| Column | Statuses Mapped | WIP Limit |
-|---|---|---|
-| **Preview — Active** | Preview Active | 3 |
-| **Preview — Decision Pending** | Preview Decision Pending | — |
-| **Build — Ready** | Build Ready | — |
-| **Build — In Progress** | Build In Progress | 3 |
-| **Build — Landing** | Build Landing | — |
-| **Land — Pending** | Land Pending | — |
-| **Land — Landed** | Land Landed | — |
-| **Run** | Run Active | — |
-| **Done** | Done, Killed, Parked | — |
+Speedboat is continuous flow with a weekly steering rhythm. It is not sprint-based.
 
-### Swim Lanes
-Configure swim lanes by the **Lane** field (Preview, Build, Land, Run) so the board visually groups work by type.
+### What to choose on the board creation screen
 
----
+For most teams, choose **Label**.
 
-## Step 4: Statuses & Transitions
+Use one label that means "this issue belongs on our Speedboat board", for example:
 
-Create these statuses if they don't already exist:
+- `speedboat-personalize`
+- `speedboat-analytics`
 
-**Preview:** Preview Active → Preview Decision Pending → Promoted / Parked / Killed
-**Build:** Build Ready → Build In Progress → Build Landing → Done
-**Land:** Land Pending → Land Landed
-**Run:** Run Active → Done
+Then add that label to every issue that should appear on the board.
 
-Transition rules:
-- Preview Active → Preview Decision Pending: triggered by Friday Landing ceremony
-- Preview Decision Pending → Promoted: requires Code-Reuse Label to be set
-- Build In Progress → Build Landing: requires tests passing / PR merged (optional automation)
+If your team already has a clean project boundary, **All work items from your space** can also work. But **Label** is the safest default when multiple teams share one Jira project.
+
+### Naming the board
+
+Use a simple name such as:
+
+- `Speedboat - Personalize`
+- `Speedboat - Analytics`
 
 ---
 
-## Step 5: Saved Filters (JQL)
+## Step 2: Keep the columns simple
 
-Save these filters for ongoing use:
+Use normal Jira flow columns:
 
-**Zombie Previews** (active > 5 working days with no decision):
-```
-Lane = Preview AND status = "Preview Active" AND created <= -5d
+- **To Do**
+- **In Progress**
+- **Done**
+
+You do not need special Speedboat columns to begin.
+
+The columns answer: where is this work in execution?
+
+The labels answer: what kind of work is this in the Speedboat model?
+
+If your existing Jira workflow has extra statuses, map them into those three broad columns rather than redesigning the workflow up front.
+
+---
+
+## Step 3: Use labels for the Speedboat model
+
+Add one of these labels to every issue on the board:
+
+- `preview`
+- `build`
+- `run`
+
+Optional labels:
+
+- `landing` when something reached a meaningful outcome this week
+- `discovery` for Discovery Previews
+- `demo` for Demo Previews
+
+### Recommended label rules
+
+- Every issue should have exactly one of `preview`, `build`, or `run`
+- Use `landing` only when the outcome has actually been reached
+- Remove `landing` after the week ends if you only want it for temporary visibility, or keep it if you want historical filtering
+
+Example:
+
+- `speedboat-teamname`, `build`
+- `speedboat-teamname`, `preview`, `discovery`
+- `speedboat-teamname`, `run`
+
+---
+
+## Step 4: Configure swimlanes
+
+If your Jira board supports **query swimlanes**, use them.
+
+This is the easiest way to visualise Preview / Build / Run without changing workflows.
+
+Create these swimlanes:
+
+### Preview
+
+```jql
+labels = speedboat-teamname AND labels = preview
 ```
 
-**Active WIP count:**
-```
-Lane in (Preview, Build) AND status in ("Preview Active", "Build In Progress")
+### Build
+
+```jql
+labels = speedboat-teamname AND labels = build
 ```
 
-**Landings this week:**
-```
-Lane = Land AND status = "Land Landed" AND resolved >= startOfWeek()
+### Run
+
+```jql
+labels = speedboat-teamname AND labels = run
 ```
 
-**Started vs Landed (last 4 weeks):**
-```
--- Started:
-created >= -4w AND Lane in (Preview, Build)
--- Landed:
-Lane = Land AND status = "Land Landed" AND resolved >= -4w
+If your board filter already scopes to `speedboat-teamname`, you can shorten these to:
+
+```jql
+labels = preview
 ```
 
-**Run split:**
+```jql
+labels = build
 ```
-Lane = Run AND resolved >= startOfWeek() AND "Run Type" = Reactive
-Lane = Run AND resolved >= startOfWeek() AND "Run Type" = Proactive
+
+```jql
+labels = run
+```
+
+### What about Land?
+
+Do **not** make Land a normal swimlane for everyday work.
+
+Land is not where work sits. It is what you log when work reaches a meaningful outcome.
+
+If useful, you can create a temporary quick filter for:
+
+```jql
+labels = landing
 ```
 
 ---
 
-## Step 6: Dashboard
+## Step 5: Add quick filters
 
-Create a dashboard called **"Speedboat — [Team Name]"** with these gadgets:
-
-| Gadget | Source |
-|---|---|
-| Filter Results: Active WIP | Active WIP count filter |
-| Two-Dimensional Filter: Landings by type by week | Landings filter, rows = week, columns = Landing Type |
-| Filter Results: Zombie Previews | Zombie Previews filter |
-| Pie Chart: Run Reactive vs Proactive | Run split filters |
-| Created vs Resolved (last 6 weeks) | All project issues — shows Started vs Landed trend |
-
----
-
-## Step 7: Quick Filters (Board Header)
-
-Add these as quick filters on the board:
+Useful quick filters on the board:
 
 | Label | JQL |
 |---|---|
-| Preview only | `Lane = Preview` |
-| Build only | `Lane = Build` |
-| Run only | `Lane = Run` |
-| This week's Landings | `Lane = Land AND resolved >= startOfWeek()` |
-| Zombie Previews | `Lane = Preview AND status = "Preview Active" AND created <= -5d` |
+| Preview only | `labels = preview` |
+| Build only | `labels = build` |
+| Run only | `labels = run` |
+| Landings this week | `labels = landing` |
+| Discovery Previews | `labels = preview AND labels = discovery` |
+| Demo Previews | `labels = preview AND labels = demo` |
+
+If your board is not already scoped by the team label, add it into each query.
+
+Example:
+
+```jql
+labels = speedboat-teamname AND labels = preview
+```
 
 ---
 
+## Step 6: First-week operating advice
+
+If you need to start this week, the minimum is:
+
+- Add the team label to all in-scope existing work
+- Add one work-type label to each issue: `preview`, `build`, or `run`
+- Pick 1-2 issues most likely to become Landings this week
+- Start the ceremonies
+- Log Landings in the [Landing Log](../templates/landing-log.md)
+
+Do not wait for:
+
+- custom fields
+- workflow changes
+- dashboards
+- automation
+- backlog cleanup
+
+---
+
+## Optional: fuller setup later
+
+If the trial works and you want better reporting later, you can add:
+
+- custom fields for category, preview type, landing type, and run type
+- more precise JQL filters and dashboards
+- explicit Preview / Build / Land statuses
+- automation for Promoted / Landed transitions
+
+But none of that is required to prove the model.
+
 ## Done!
-Pin the Board README (next artifact) in the project description or sidebar so the team has context.
+
+If the board shows the right team's work, each issue has a Speedboat label, and the team can run Set Course / Course Check / The Landing, you are ready to start.
