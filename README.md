@@ -38,6 +38,8 @@ Four lightweight ceremonies replace sprint planning and daily standups:
 | **Friday** | The Landing (30 min) | What landed, who benefited, what did we learn? |
 | **Fortnightly** | Route Planning (60 min) | Shape what's coming. What needs Preview before Build? |
 
+Speedboat is designed for small, nimble teams of 4–5 engineers. Fewer seats means less coordination overhead, faster decisions, and tighter ownership of what lands.
+
 No points. No burndown charts. No sprint commitments. No velocity tracking. Just a relentless focus on landing meaningful work.
 
 ---
@@ -121,21 +123,12 @@ speedboat/
 
 ---
 
-## Origin
-
-Speedboat was created by [Marcus Bransbury](https://github.com/bransbury) as a practical response to a specific problem: an engineering team using AI tools daily, operating in a loose Scrum, producing more code than ever, and shipping roughly the same amount of customer value.
-
-It was designed for a 4-week trial with a team of ~8 engineers. The documents in this repo are the actual artefacts used to propose, launch, and run that trial.
-
-This is not a framework from a consultancy. It's a working operating model from a working team, published so other teams facing the same problem can fork it, adapt it, and try it themselves.
-
----
-
 ## Adapting Speedboat
 
 This repo is a starting point, not a prescription. Things you should change for your context:
 
-- **WIP limits:** 3/3 works for a team of ~8. Scale to your size.
+- **Team size:** Speedboat is designed for 4–5 engineers per team. If you have more, run multiple boats rather than one larger one.
+- **WIP limits:** 3/3 assumes a team of 4–5. Adjust proportionally if your boat is smaller.
 - **Ceremony timing:** Monday/Wednesday/Friday assumes a co-located or overlapping-timezone team. Shift as needed.
 - **Landing types:** add types that matter to your business. Remove ones that don't.
 - **Run target:** 20% is a starting point. If your system is unstable, it might be 40%. Be honest about it.

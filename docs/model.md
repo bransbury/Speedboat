@@ -2,9 +2,7 @@
 
 ## Why now
 
-We've been operating on a loose two-week Scrum: sprint-shaped delivery, mixed work, no points, flexible practice. It's been workable. But it was designed for a world where writing the code was the expensive part.
-
-That world has changed.
+Scrum was designed for a world where writing the code was the expensive part, that world has changed.
 
 AI now materially accelerates how quickly we can understand unfamiliar systems, generate implementation options, build prototypes, refactor, write tests, explore edge cases, and produce demo-ready versions of future functionality. The bottleneck is no longer "how quickly can we write the code?"
 
@@ -21,7 +19,7 @@ Faster code generation alone does not guarantee faster customer impact. Without 
 
 The cost of starting has collapsed. The cost of finishing (judgement, integration, review, rollout, support, learning) has not. That asymmetry is exactly what Speedboat is built to manage.
 
----
+--- 
 
 ## The shift
 
@@ -41,6 +39,14 @@ And the cultural shifts behind it:
 | Is the ticket done? | Who benefited, what changed, what did we learn? |
 | Product writes ideas, Engineering builds them. | Product and Engineering use fast Previews to learn together before committing deeply. |
 | AI helps us produce more code. | AI helps us learn faster, focus better, and land value sooner. |
+
+---
+
+## Team size
+
+A speedboat has few seats by design. The model works best with small teams of 4–5 engineers, where everyone has context, WIP limits feel natural rather than imposed, and the Friday Landing is a genuine conversation rather than a status parade.
+
+Larger groups should split into multiple speedboats rather than scaling ceremonies up. Each boat has its own board, its own rhythm, and its own Landings. Coordination between boats happens at Route Planning, not daily.
 
 ---
 
