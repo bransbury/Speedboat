@@ -75,4 +75,6 @@ Post this to the team channel every Friday after The Landing ceremony. Takes ~5 
 - **Be honest about 🔴.** Missed landings aren't failures — hiding them is. Naming them early prevents surprises.
 - **Run % is an estimate.** Don't spend time calculating it precisely. Rough is fine. The trend over weeks is what matters.
 - **Post it publicly.** The snapshot is for the team, but also for anyone who wants to see what the team is doing without attending ceremonies.
+- **Captain accountability still applies.** The facilitator may draft the snapshot, but the Captain is accountable for making sure it gets published.
+- **Use it as source material.** Every 4 weeks, combine the recent snapshots with the Landing Log to prepare the monthly stakeholder summary.
 - **Link to the Landing Log.** If someone wants detail, point them to the full log rather than expanding the snapshot.

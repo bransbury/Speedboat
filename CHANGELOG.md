@@ -4,6 +4,21 @@ All notable changes to Speedboat will be documented here.
 
 ---
 
+## v1.2.0 — 2026-05-08
+
+Operating model expansion and messaging update.
+
+- Strengthened the public-facing thesis across the README and model, including sharper framing around AI, finishing cost, weekly steering, and the "no standups / zero status updates" message
+- Added lightweight role clarity with the Captain role, updated decision rights, clearer escalation guidance, and stronger accountability around ceremony quality, WIP enforcement, and reporting
+- Added multi-boat coordination guidance with Fleet Sync, including cross-boat dependencies, shared platform prioritisation, and multi-boat risk visibility
+- Added a permanent monthly Learning Review and clarified the distinction between weekly tactical learning and slower operating-model feedback loops
+- Added explicit intake flow guidance with the unshaped backlog, Route Planning as the shaping point, and clearer rules for mid-cycle incoming work
+- Added guidance for big bets and multi-week Build work, including partial Landings to keep large initiatives visible and steerable across cycles
+- Added a monthly stakeholder summary derived from the Landing Log and Weekly Snapshots to support leadership and stakeholder communication beyond the team
+- Added guidance for using autonomous or semi-autonomous AI agents within Preview, Build, and Run without lowering the quality bar or weakening human ownership
+- Expanded the FAQ and ceremony guides to explain weekly cadence, big bets, learning loops, intake flow, multi-boat coordination, and other common adoption questions more explicitly
+- Added new documentation and templates: AI Agents in Speedboat, Fleet Sync, Learning Review, and Monthly Stakeholder Summary
+
 ## v1.1.0 — 2026-05-05
 
 Documentation and model clarification update.

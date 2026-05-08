@@ -6,6 +6,10 @@ Preview, Build, and Run are the work lanes.
 
 Land is not a lane you plan into. It's what you log when work reaches a meaningful outcome.
 
+This guide answers **what kind of work this is**. It does not decide whether the work should enter the system immediately. Non-urgent new work should go into the unshaped backlog until Route Planning shapes it.
+
+It also does not change based on whether a human or an AI agent did the work. Agent-assisted work still belongs in Preview, Build, or Run based on intent and risk.
+
 ---
 
 ```

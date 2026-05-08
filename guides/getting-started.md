@@ -51,7 +51,9 @@ Do not wait for perfect dashboards, automation, or backlog cleanup. Week 1 shoul
 
 - [ ] Create your [Landing Log](../templates/landing-log.md) (spreadsheet, Confluence, Notion, wherever your team lives)
 - [ ] Bookmark the [Weekly Snapshot](../templates/weekly-snapshot.md) template
+- [ ] Bookmark the [Monthly Stakeholder Summary](../templates/monthly-stakeholder-summary.md) template
 - [ ] Decide where snapshots will be posted (Slack channel, Teams, email, pick one)
+- [ ] Decide where the monthly stakeholder summary will be shared (leadership channel, email, doc, pick one)
 
 ### Set up the rhythm
 
@@ -63,9 +65,14 @@ Do not wait for perfect dashboards, automation, or backlog cleanup. Week 1 shoul
 | Course Check | Wednesday midday | 15 min | Whole team |
 | The Landing | Friday afternoon | 30 min | Whole team + optional stakeholders |
 | Route Planning | Every other week | 60 min | Engineering + Product |
+| Learning Review | Every 4 weeks | 30 min | Whole team |
 
+- [ ] Decide where your **unshaped backlog** will live so new ideas have one visible place to land
+- [ ] If you run multiple boats, add **Fleet Sync** every other week (30 min, one representative per boat + product/engineering leadership)
 - [ ] Fill in the [Facilitation Rotation](facilitation-rotation.md) schedule for the trial period
-- [ ] Print or bookmark the ceremony guides ([Monday](ceremonies/set-course.md) · [Wednesday](ceremonies/course-check.md) · [Friday](ceremonies/the-landing.md) · [Fortnightly](ceremonies/route-planning.md))
+- [ ] Print or bookmark the ceremony guides ([Monday](ceremonies/set-course.md) · [Wednesday](ceremonies/course-check.md) · [Friday](ceremonies/the-landing.md) · [Fortnightly](ceremonies/route-planning.md) · [Multi-boat: Fleet Sync](ceremonies/fleet-sync.md))
+
+Use something simple: a board column, a backlog list, or a shared doc. The important part is that new ideas become visible without quietly entering active work.
 
 ### Introduce to the team
 
@@ -125,7 +132,11 @@ Give it time. Week 1 is about starting the habit, not proving the model.
 - [ ] **Week 2:** Run your first Route Planning session. Shape the next 2–4 weeks. Identify what needs a Preview before committing to Build.
 - [ ] **Weeks 2–3:** Tune. Adjust ceremony timing if needed. Fix confusion about which lane work belongs in. Watch for zombie Previews.
 - [ ] **Week 3:** Prepare for evaluation. Bookmark the [Trial Evaluation Template](../templates/trial-evaluation.md). Start gathering data from the Landing Log, snapshots, and board.
+- [ ] **Week 4:** Draft the [Monthly Stakeholder Summary](../templates/monthly-stakeholder-summary.md) before the Learning Review so the team can look back at what landed, what the mix is saying, and what is likely next.
+- [ ] **Week 4:** Run a short [Learning Review](ceremonies/learning-review.md). Ask what the last 4 weeks are teaching you before you jump to conclusions.
 - [ ] **Week 4:** Evaluate. Fill in the trial evaluation. Run the [Team Survey](../templates/team-survey.md). Gather Product and Sales feedback. Decide: continue, adjust, expand, or stop.
+
+If you continue after the trial, keep the Learning Review as the standing monthly feedback loop. The weekly learning slot in Friday's Landing is useful, but it is not enough on its own.
 
 ---
 

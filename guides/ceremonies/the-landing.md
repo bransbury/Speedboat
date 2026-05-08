@@ -29,8 +29,10 @@ A Landing is not a queue of work. It is the moment completed work becomes visibl
 |---|---|---|
 | 0–10 min | **Landings** | Walk each landed item. For each: what shipped, who benefits, what type, what changed? Update the Landing Log live. |
 | 10–20 min | **Preview Decisions** | For every active Preview: **Kill / Park / Continue / Promote**. No Preview leaves without a decision. If promoting, assign a Code-Reuse Label. If killing/parking, state what we learned. Max one continuation per Preview (no indefinite "continue"). |
-| 20–25 min | **Learning & Retro** | What did we learn this week? What would we do differently? One or two points, not a full retro. |
+| 20–25 min | **Learning** | What did we learn this week? What should we adjust next week? One or two points, not a full Learning Review. |
 | 25–30 min | **Run Check** | What reactive work hit us? Was it expected? Should any of it generate proactive Run work to prevent recurrence? |
+
+The Landing captures tactical learning. Use the separate Learning Review every 4 weeks for a wider look at whether the model, WIP limits, and Landing mix are working.
 
 ---
 
@@ -91,5 +93,6 @@ A Landing is not a queue of work. It is the moment completed work becomes visibl
 | Let Previews "continue" indefinitely | One continuation max. Next Friday is a hard decision. |
 | Skip the learning question | Even one sentence makes the week's work compound |
 | Treat it as a performance review | This is about the work, not judging individuals |
+| Try to do a full process review in 5 minutes | Capture tactical learning here and save the wider model questions for the Learning Review |
 | Rush through to end early | The Landing is where Speedboat generates its value — give it the full 30 minutes |
 | Forget to update the Landing Log | If it's not logged, it didn't land (for measurement purposes) |

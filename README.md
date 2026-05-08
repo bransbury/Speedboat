@@ -2,19 +2,17 @@
 
 ### Scrum was designed for a world where writing code was the expensive part. That world is gone.
 
-AI has collapsed the cost of starting work. Reading code, prototyping, refactoring, generating tests, producing demo-ready software: what used to take a week now takes a day. What used to take a day takes an hour.
+In an AI-accelerated environment, teams do not automatically ship faster. They start more.
 
-But finishing work is just as expensive as it ever was. Judgement, integration, review, rollout, support, learning. None of that got cheaper.
+The cost of starting has collapsed. The cost of finishing has not. AI changed how we write software. Speedboat changes how we land it.
 
-The result? Teams using Scrum in an AI-accelerated environment don't ship faster. They start more. More branches, more prototypes, more half-finished work, more demos that never become products, more sprints where the team is busy but nothing of substance reaches a customer.
+**Start less. Learn faster. Land more.**
 
-**Speedboat is a post-Scrum operating model for teams where AI has made starting cheap but finishing expensive.**
+Speedboat is a post-Scrum operating model for teams where AI has made starting cheap but finishing expensive.
 
 It replaces sprint commitments with a weekly steering rhythm. It replaces velocity with meaningful outcomes. It replaces "how much can we start?" with a harder, better question:
 
 > *What meaningful thing are we landing this week, and what do we need to learn or finish to make that happen?*
-
-**Start less. Learn faster. Land more.**
 
 ---
 
@@ -32,11 +30,13 @@ Work moves through three lanes, and the outcomes are logged as Landings:
 | Element | What It Is | Constraints |
 |---|---|---|
 | **Preview** | Quick prototypes, PoCs, or demos to learn fast | Max 3 active. 1–5 day timebox. Decision every Friday. |
-| **Build** | Production-grade work that ships | Max 3 active. Quality bar unchanged. |
+| **Build** | Production-grade work that ships | Max 3 active. Quality bar unchanged. Big bets can span multiple weeks, but should move through partial Landings. |
 | **Run** | Operational work that keeps the lights on | Reactive + Proactive. Aim ≤20%. Track honestly. |
 | **Land** | Meaningful outcomes reaching a real beneficiary | Customer, Business, Platform, or Decision. Logged weekly. |
 
 Not all Landings mean the same thing. Customer Landings show delivered value. Business Landings show enablement. Platform Landings show capability and resilience. Decision Landings show learning. A healthy team may produce all four, but should not confuse learning or enablement with customer impact.
+
+Three core ceremonies a week. Zero status updates.
 
 Four lightweight ceremonies replace sprint planning and daily standups:
 
@@ -48,10 +48,15 @@ The default rhythm is Monday / Wednesday / Friday, but teams should shift the ca
 | **Wednesday** | Course Check (15 min) | Still on track? Adjust now. |
 | **Friday** | The Landing (30 min) | What landed, who benefited, what did we learn? |
 | **Fortnightly** | Route Planning (60 min) | Shape what's coming. What needs Preview before Build? |
+| **4 wks** | **Learning Review** (30 min) | What is the recent work teaching us about WIP, Landing mix, Run load, and how the model is working? |
+
+If you run multiple boats, add a lightweight **Fleet Sync** every two weeks: 30 minutes, one representative per boat plus product and engineering leadership, focused only on dependencies, shared platform priorities, and cross-boat risks.
+
+New ideas should go into an **unshaped backlog** first. Route Planning shapes that backlog into Preview and Build candidates; urgent work uses Run or the exception protocol.
 
 Speedboat is designed for small, nimble teams of 4–5 engineers. Fewer seats means less coordination overhead, faster decisions, and tighter ownership of what lands.
 
-No points. No burndown charts. No sprint commitments. No velocity tracking. Just a relentless focus on landing meaningful work.
+No standups. No points. No sprint commitments. No burndown charts. No velocity tracking. Just a relentless focus on landing meaningful work.
 
 ---
 
@@ -82,6 +87,7 @@ No points. No burndown charts. No sprint commitments. No velocity tracking. Just
 | A leader evaluating whether to try this | [Leadership Brief](docs/leadership-brief.md) |
 | A team about to adopt Speedboat | [Getting Started](guides/getting-started.md) |
 | An engineer wanting the 2-minute version | [One-Page Summary](docs/one-page-summary.md) |
+| A team using AI agents heavily | [AI Agents in Speedboat](docs/ai-agents.md) |
 | A facilitator running a ceremony | [Ceremony Guides](guides/ceremonies/) |
 | Setting up your board | [Jira Setup](setup/jira.md) |
 | Stuck or confused about something | [FAQ & Troubleshooting](docs/faq.md) |
@@ -95,6 +101,7 @@ speedboat/
 ├── docs/
 │   ├── model.md                    # The full operating model
 │   ├── one-page-summary.md         # Printable one-pager
+│   ├── ai-agents.md                # How AI agents fit within the lanes
 │   ├── leadership-brief.md         # Proposal for leadership buy-in
 │   └── faq.md                      # Common questions and troubleshooting
 ├── guides/
@@ -105,10 +112,13 @@ speedboat/
 │       ├── set-course.md           # Monday
 │       ├── course-check.md         # Wednesday
 │       ├── the-landing.md          # Friday
-│       └── route-planning.md       # Fortnightly
+│       ├── learning-review.md      # Every 4 weeks
+│       ├── route-planning.md       # Fortnightly, per boat
+│       └── fleet-sync.md           # Fortnightly, multi-boat only
 ├── templates/
 │   ├── landing-log.md              # Track what landed, for whom, and why
 │   ├── weekly-snapshot.md          # Friday summary for your team channel
+│   ├── monthly-stakeholder-summary.md # 4-week outward summary for leadership and stakeholders
 │   ├── preview-decision-record.md  # Capture every Preview decision
 │   ├── trial-evaluation.md         # End-of-trial readout structure
 │   └── team-survey.md             # Anonymous team feedback survey
@@ -134,15 +144,29 @@ speedboat/
 
 ---
 
+## Roles
+
+- **Product Lead:** owns product priority and intended outcomes.
+- **Captain:** the engineering lead for the boat. Owns WIP discipline, escalation, incident trade-offs, and overall boat health.
+- **Crew:** everyone contributes across Preview, Build, Run, and rotating facilitation.
+
+Facilitation rotates, but the Captain remains accountable for board hygiene, ceremony quality, and keeping the boat healthy.
+
+---
+
 ## Decision Rights
 
 | Decision | Default owner |
 |---|---|
-| Intended Landing for the week | Product and Engineering together |
-| Preview decision: kill / park / continue / promote | Product and Engineering together |
-| Production readiness for Build | Engineering |
-| Priority of what enters Preview or Build | Product |
-| Run prioritisation during incidents | Engineering |
+| Intended Landing for the week | Product Lead and Captain together |
+| Preview decision: kill / park / continue / promote | Product Lead and Captain together |
+| Production readiness for Build | Captain / Engineering |
+| Priority of what enters Preview or Build | Product Lead |
+| Run prioritisation during incidents | Captain |
+
+When Product Lead and Captain disagree, resolve it explicitly and quickly. If it remains unresolved by the end of the working day, escalate to the next product and engineering leaders rather than leaving work in limbo.
+
+If you run multiple boats, use a lightweight Fleet Sync to handle cross-boat dependencies, shared platform priorities, and risks that affect more than one boat.
 
 ---
 

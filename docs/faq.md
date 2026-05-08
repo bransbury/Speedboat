@@ -12,13 +12,35 @@ Sprints have a commitment at the start and a review at the end. If you don't del
 
 The cultural difference: sprints optimise for predictability. Speedboat optimises for learning and finishing.
 
+### "Why one week, not two?"
+
+Because AI increases the rate of starting.
+
+When starting gets cheaper, drift, mistaken commitment, and hidden WIP accumulate faster too. That means the steering loop has to get shorter.
+
+One week is short enough to correct direction before waste compounds, but long enough to produce something meaningful. Two weeks is often too long in an environment where code, demos, and branches can proliferate in days.
+
+The point of the weekly cadence is not pressure. It is faster steering.
+
 ### "What happened to story points?"
 
 Gone. Speedboat measures outcomes (Landings), not effort estimates. If you want to understand throughput, look at the Started vs. Landed ratio and Build age over time. These tell you more than points ever did.
 
 ### "What if my team is bigger than 5?"
 
-Split into multiple boats, each with its own board/rhythm, coordinate through Route Planning and leadership/product sync rather than scaling a single ceremony set.
+Split into multiple boats, each with its own board and rhythm. Keep Route Planning per boat, and add a lightweight Fleet Sync every two weeks for cross-boat dependencies, shared platform priorities, and multi-boat risks rather than scaling a single ceremony set.
+
+### "How do multiple boats coordinate dependencies?"
+
+Use Fleet Sync. Each boat sends one representative, usually the Captain, plus product and engineering leadership. The point is not status reporting. The point is to name cross-boat dependencies early, assign owners, and make shared risks visible before a boat is blocked.
+
+Keep the ownership simple:
+
+- The boat needing the dependency owns making the need explicit.
+- The boat providing the dependency owns giving a realistic commit or decline.
+- Leadership steps in only when priorities or risks cross boat boundaries.
+
+If a dependency only affects one boat's internal planning, keep it in Route Planning. If it affects multiple boats, take it to Fleet Sync.
 
 ### "Do I need to change team structure to try this?"
 
@@ -26,7 +48,16 @@ Not necessarily; you can pilot the rhythm inside an existing group, but the mode
 
 ### "Do we still have a backlog?"
 
-Yes, but it's shaped differently. Route Planning (fortnightly) maintains a queue of Preview and Build candidates for the next 2–4 weeks. Anything further out lives in your roadmap or product backlog as before. Speedboat doesn't replace product planning; it replaces sprint-level execution planning.
+Yes, but it's shaped differently. New ideas go into an **unshaped backlog** first. Route Planning (fortnightly) promotes non-urgent items from that backlog into a shaped queue of Preview and Build candidates for the next 2–4 weeks. Anything further out lives in your roadmap or product backlog as before. Speedboat doesn't replace product planning; it replaces sprint-level execution planning.
+
+### "What happens when a new request arrives mid-week?"
+
+First ask whether it is urgent.
+
+- **Urgent:** treat it as Run or use the exception protocol. Name what gets paused.
+- **Not urgent:** add it to the unshaped backlog and review it in the next Route Planning.
+
+The Product Lead and Captain can triage new work between Route Planning sessions, but they should not quietly inject non-urgent work into Build mid-week.
 
 ### "Where do bugs go?"
 
@@ -39,6 +70,25 @@ Depends on severity and urgency:
 ### "What about work that takes longer than a week?"
 
 Build items often span multiple weeks. That's fine. The question isn't "did you finish in one week?" It's "are you making progress toward a Landing, and is there something meaningful we can land along the way?" Slice vertically where possible. If a Build item has been in progress for 3+ weeks with no partial Landing, it's probably too big.
+
+### "What about a big bet that takes 2 months?"
+
+Treat it as a multi-week initiative, not as one giant invisible Build item.
+
+Keep the big bet visible as the umbrella outcome, but move the work through a series of partial Landings across the next Route Planning cycles.
+
+Examples:
+
+- an API live behind a feature flag
+- an internal beta ready for use
+- a migration path completed
+- observability and rollback protections in place
+
+Those count if they are meaningful to someone or if they materially reduce risk and unlock the next slice.
+
+The rule is not "finish the big bet every week." The rule is "make the big bet visible and steerable through meaningful Landings along the way."
+
+If a big bet has gone more than 2 weeks without any meaningful partial Landing, raise it in Route Planning and re-slice it.
 
 ### "Does this work for platform/infrastructure teams?"
 
@@ -96,7 +146,7 @@ This means Route Planning isn't generating enough ready candidates. Either:
 - The team lead does a quick 15-minute shaping conversation mid-week
 - Accept that some weeks are lighter and use the space for Proactive Run
 
-Don't fill the gap by pulling in unshaped work. Unshaped work expands, misses, and demoralises.
+Don't fill the gap by pulling in unshaped work. Add it to the unshaped backlog and shape it properly. Unshaped work expands, misses, and demoralises.
 
 ---
 

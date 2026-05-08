@@ -2,6 +2,8 @@
 
 Record one row per Landing. Update live during Friday's Landing ceremony.
 
+The facilitator may update it live, but the Captain is accountable for making sure the log stays current.
+
 ---
 
 ## Log

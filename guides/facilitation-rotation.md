@@ -16,6 +16,15 @@
 - Facilitation rotates **weekly**, covering Monday Set Course, Wednesday Course Check, and Friday Landing for that week
 - Route Planning (fortnightly) is **jointly facilitated** by the Engineering lead and Product lead — this does not rotate
 - The rotation follows a fixed order so everyone knows when their week is coming
+- Facilitation rotates, but the **Captain** remains accountable for board hygiene, WIP discipline, and ceremony quality
+
+---
+
+## Captain vs Facilitator
+
+- The **facilitator** runs the meetings for the week: keeps time, follows the guide, and makes sure the room hears the right questions.
+- The **Captain** is the engineering lead for the boat: owns WIP enforcement, exception handling, blocker escalation, and the overall health of the operating rhythm.
+- One person can be both Captain and facilitator in a given week, but rotation does not remove Captain accountability.
 
 ---
 
@@ -88,3 +97,5 @@ At the end of your facilitation week, give the next facilitator a 1-minute heads
 - Any known blockers or absences for next week
 
 This can be a Slack message. Keep it lightweight.
+
+If WIP is already over the limit, blockers need escalation, or incident trade-offs are unresolved, include the Captain in the handover rather than assuming the next facilitator will absorb it.
