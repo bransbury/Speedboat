@@ -1,63 +1,44 @@
 # Speedboat — Landing Log
 
-Record one row per Landing. Update live during Friday's Landing ceremony.
+Use this as a weekly template. Create one copy per week, or duplicate the Week section inside one running doc or spreadsheet.
 
 The facilitator may update it live, but the Captain is accountable for making sure the log stays current.
 
----
-
-## Log
-
-| Week | Date | Title | Landing Type | Beneficiary | Outcome | Source | Notes |
-|---|---|---|---|---|---|---|---|
-| W1 | | | Customer / Business / Platform / Decision | | | Promoted Preview / Roadmap / Customer Need / Platform / Run | |
-| W1 | | | | | | | |
-| W2 | | | | | | | |
-| W2 | | | | | | | |
-| W3 | | | | | | | |
-| W3 | | | | | | | |
-| W4 | | | | | | | |
-| W4 | | | | | | | |
-| W5 | | | | | | | |
-| W5 | | | | | | | |
-| W6 | | | | | | | |
-| W6 | | | | | | | |
+Use the last 4 Landing Logs plus the Weekly Snapshots when preparing the monthly stakeholder summary.
 
 ---
 
-## Preview Decision Log
+## Week [N] — [Date range]
 
-Record every Friday Preview decision here (or as fields on the Jira card — either works, but pick one).
+### Landings
 
-| Week | Date | Preview Title | Preview Type | Decision | Rationale | Code-Reuse Label | Learning |
-|---|---|---|---|---|---|---|---|
-| W1 | | | Discovery / Demo | Kill / Park / Continue / Promote | | Throwaway / Reference / Partial Reuse / Foundation | |
-| W1 | | | | | | | |
-| W2 | | | | | | | |
-| W2 | | | | | | | |
-| W3 | | | | | | | |
-| W3 | | | | | | | |
-| W4 | | | | | | | |
-| W4 | | | | | | | |
-| W5 | | | | | | | |
-| W5 | | | | | | | |
-| W6 | | | | | | | |
-| W6 | | | | | | | |
+| Date | Title | Landing Type | Beneficiary | Outcome | Source | Notes |
+|---|---|---|---|---|---|---|
+| | | Customer / Business / Platform / Decision | | | Promoted Preview / Roadmap / Customer Need / Platform / Run | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
 
 ---
 
-## Summary View (update weekly)
+### Preview Decisions
 
-Use this to spot trends at a glance during Route Planning and the end-of-trial evaluation.
+Record every Friday Preview decision here, or as fields on the Jira card. Pick one method and use it consistently.
 
-| Week | Customer Landings | Business Landings | Platform Landings | Decision Landings | Total | Previews Killed | Previews Promoted | Run % (est.) |
-|---|---|---|---|---|---|---|---|---|
-| W1 | | | | | | | | |
-| W2 | | | | | | | | |
-| W3 | | | | | | | | |
-| W4 | | | | | | | | |
-| W5 | | | | | | | | |
-| W6 | | | | | | | | |
+| Date | Preview Title | Preview Type | Decision | Rationale | Code-Reuse Label | Learning |
+|---|---|---|---|---|---|---|
+| | | Discovery / Demo | Kill / Park / Continue / Promote | | Throwaway / Reference / Partial Reuse / Foundation | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+
+---
+
+### Notes (optional)
+
+- Estimated Run %:
+- Key learning:
+- Link to Weekly Snapshot:
 
 ---
 

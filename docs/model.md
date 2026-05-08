@@ -282,11 +282,10 @@ Speedboat is the delivery operating system. Roadmap, customer judgement, and com
 ## Principles
 
 1. Customer impact is the unit of progress.
-2. Start less work than we think we can.
+2. Start less than we think we can.
 3. Preview cheaply, decide quickly.
-4. Build fewer things at once.
-5. Prioritise Landing over starting.
-6. Make Run work visible.
-7. Use AI aggressively, but keep human ownership.
-8. Product owns value; Engineering owns production readiness.
-9. In short weeks, reduce scope, not discipline.
+4. Prioritise Landing over starting.
+5. Make trade-offs and Run work visible.
+6. Keep the quality bar unchanged.
+7. Use AI to accelerate work, not replace judgement.
+8. In short weeks, reduce scope, not discipline.
