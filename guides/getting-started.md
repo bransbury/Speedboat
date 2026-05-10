@@ -13,7 +13,7 @@ There are two ways to use this guide:
 - **Start this week:** follow only the Week 1 path below.
 - **When the simple version stops being enough:** use [When To Add More Structure](when-to-add-more-structure.html).
 
-**Recommended first read:** [One-Page Summary](../docs/one-page-summary.md)
+**Recommended first read:** [Speedboat on a Page](../docs/one-page-summary.md)
 
 ---
 
@@ -26,6 +26,7 @@ If you are trying Speedboat next week, do these things first and ignore the rest
 - Make active work visible as **Preview**, **Build**, or **Run** using swimlanes, labels, or another clear categorisation on the board.
 - Keep your normal execution columns such as **To Do / In Progress / Done**.
 - Pick 1-2 intended Landings for the week.
+- If that choice feels fuzzy, use [How to Choose This Week's Landing](choosing-what-to-land.md).
 - Limit Preview and Build to 3 active items each.
 - Run Monday Set Course, Wednesday Course Check, and Friday Landing.
 - Create a [Landing Log](../templates/landing-log.md) on Friday.
@@ -118,6 +119,7 @@ Make sure you can answer these questions:
 You are not trying to be perfect. You are trying to start the rhythm.
 
 - [ ] **Monday:** Run [Set Course](ceremonies/set-course.md). Pick 1-2 intended Landings for the week.
+- [ ] **Monday:** If priority is unclear, use [How to Choose This Week's Landing](choosing-what-to-land.md).
 - [ ] **Monday:** Check WIP. If you are above the limits, do not panic. Name what needs to finish before anything new starts.
 - [ ] **Wednesday:** Run [Course Check](ceremonies/course-check.md). Ask what needs to change before Friday.
 - [ ] **Friday:** Run [The Landing](ceremonies/the-landing.md). Record what landed, decide every active Preview, and update the Landing Log.

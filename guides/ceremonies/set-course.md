@@ -12,6 +12,8 @@
 
 Agree what we intend to land this week. Everyone leaves knowing what they're working on and why. This guide assumes a single boat of 4–5 engineers.
 
+If the team is unsure what should win this week, use [How to Choose This Week's Landing](../choosing-what-to-land.md).
+
 ---
 
 ## Before the Meeting (Facilitator, 5 min prep)
@@ -20,6 +22,7 @@ Agree what we intend to land this week. Everyone leaves knowing what they're wor
 - [ ] Note what's still in flight from last week
 - [ ] Check WIP limits — are we at cap?
 - [ ] Flag any new urgent Run that came in over the weekend
+- [ ] If the priority is unclear, open [How to Choose This Week's Landing](../choosing-what-to-land.md)
 
 ---
 
@@ -46,10 +49,13 @@ Agree what we intend to land this week. Everyone leaves knowing what they're wor
 
 ## Anti-Patterns
 
-| ❌ Don't | ✅ Do |
-|---|---|
-| Load up new starts because people feel "free" | Ask "what needs to finish?" before "what should we start?" |
-| Treat it as sprint planning with task assignments | Set direction and intended outcomes, not task lists |
-| Skip the WIP check | WIP limits are the engine — respect them or name the exception |
-| Let items carry forward without acknowledging it | If something didn't land last week, say why and decide: continue, cut scope, or drop |
-| Run longer than 30 minutes | If it's going long, you're planning too much detail — save it for Route Planning |
+- Don't load up new starts because people feel free.
+	Do ask what needs to finish before asking what should start.
+- Don't treat Set Course as sprint planning with task assignments.
+	Do set direction and intended outcomes, not task lists.
+- Don't skip the WIP check.
+	Do respect the limits or name the exception.
+- Don't let items carry forward without acknowledging it.
+	Do say why something did not land and decide whether to continue, cut scope, or drop it.
+- Don't let the meeting run longer than 30 minutes.
+	Do save detailed planning for Route Planning.

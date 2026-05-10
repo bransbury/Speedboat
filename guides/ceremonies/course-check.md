@@ -42,13 +42,16 @@ Use this at the midpoint of your working week. Wednesday is the default, not a r
 
 ## Anti-Patterns
 
-| ❌ Don't | ✅ Do |
-|---|---|
-| Go around the room for individual status updates | Focus only on the intended Landings — are they at risk? |
-| Re-plan the week | Course-correct, don't restart |
-| Run longer than 15 minutes | If it needs more time, it's a conversation for two people after the meeting |
-| Ignore amber items hoping they'll resolve | Amber on Wednesday is red on Friday — act now |
-| Skip it because "everything's fine" | The meeting is 15 minutes. Hold it. The one week you skip is the week something slips. |
+- Don't go around the room for individual status updates.
+	Do focus only on intended Landings and whether they are at risk.
+- Don't re-plan the week.
+	Do course-correct instead of restarting.
+- Don't let the meeting run longer than 15 minutes.
+	Do move deeper conversations to the people who need them after the meeting.
+- Don't ignore amber items and hope they resolve.
+	Do act on Wednesday while there is still time to recover.
+- Don't skip it because everything looks fine.
+	Do hold the habit; the week you skip is often the week something slips.
 
 ---
 

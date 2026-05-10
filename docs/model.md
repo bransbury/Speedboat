@@ -1,4 +1,4 @@
-# Speedboat: The Operating Model
+# Speedboat: Full Guide
 
 [Home](../index.md) | [Docs](index.md) | [Guides](../guides/index.md) | [Ceremonies](../guides/ceremonies/index.md) | [Templates](../templates/index.md) | [Setup](../setup/index.md)
 
@@ -91,9 +91,9 @@ These are the parts a team needs first.
 
 ## The model
 
-Speedboat uses three work lanes: Preview, Build, and Run.
+Preview, Build, and Run are the work lanes. Land is the outcome layer.
 
-Land is different. It is not a planning lane where work sits. It is the moment meaningful work reaches its intended beneficiary, and the outcome we log each week.
+Land is not a planning lane where work sits. It is the moment meaningful work reaches its intended beneficiary, and the outcome we log each week.
 
 **Preview / Build / Run -> Landing**
 
@@ -170,20 +170,30 @@ The honest, visible stream of operational work that keeps the business healthy.
 
 ## The weekly rhythm
 
-Three core ceremonies a week. Zero status updates.
-
-Four light-touch checkpoints replace daily standups and two-week sprint planning.
+Three weekly steering points keep the boat moving. Zero status updates.
 
 AI accelerates mistakes as efficiently as it accelerates progress. That is why the steering loop has to get shorter.
 
 The default rhythm is Monday / Wednesday / Friday, but teams should shift the cadence to match their working week. The important pattern is start-of-week steering, mid-week course correction, and end-of-week Landing.
+
+When Monday priority is unclear, choose the highest-value Landing you can credibly get to a real beneficiary this week, after making urgent Run explicit. See [How to Choose This Week's Landing](../guides/choosing-what-to-land.md).
 
 | Ceremony | Duration | Purpose |
 |---|---|---|
 | Monday: Set Course | 30 min | Where are we going this week? Choose the intended Landing, confirm WIP, set ownership. |
 | Wednesday: Course Check | 15 min | Are we still on track? Surface blockers and create permission to course-correct before the week is lost. |
 | Friday: The Landing | 30 min | What landed, who benefited, what did we learn, and what decisions does each active Preview need? |
-| Fortnightly: Route Planning | 60 min | Shape the route ahead: upcoming work, what needs Preview before Build, risks, and slicing into landings. |
+
+Route Planning keeps the next few weeks shapeable. It is part of running Speedboat properly over time, but teams can defer the first session if they already have enough shaped work to begin.
+
+| Ceremony | Duration | Purpose |
+|---|---|---|
+| Fortnightly: Route Planning | 60 min | Keep the next 2-4 weeks shaped enough that weekly steering does not become backlog grooming. |
+
+Learning Review and Fleet Sync are periodic or adaptive loops.
+
+| Ceremony | Duration | Purpose |
+|---|---|---|
 | Every 4 weeks: Learning Review | 30 min | Step back from the week-to-week flow. What is the work teaching us about WIP, Landing mix, Run load, and how the model is working? |
 
 For teams running multiple boats, add one extra coordination point:

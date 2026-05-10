@@ -12,6 +12,8 @@ The cost of starting has collapsed. The cost of finishing has not. AI changed ho
 
 Speedboat is a post-Scrum operating model for teams where AI has made starting cheap but finishing expensive.
 
+Use [Speedboat on a Page](docs/one-page-summary.md) as the cheat sheet, [Getting Started](guides/getting-started.md) to begin with a team next week, and [Full Guide](docs/model.md) when you want the full rationale, controls, and scaling patterns.
+
 It replaces sprint commitments with a weekly steering rhythm. It replaces velocity with meaningful outcomes. It replaces "how much can we start?" with a harder, better question:
 
 > *What meaningful thing are we landing this week, and what do we need to learn or finish to make that happen?*
@@ -20,7 +22,7 @@ It replaces sprint commitments with a weekly steering rhythm. It replaces veloci
 
 ## How It Works
 
-Speedboat has three work lanes and one outcome layer:
+Preview, Build, and Run are the work lanes. Land is the outcome layer.
 
 - **Preview:** quick prototypes, PoCs, or demos to learn fast
 - **Build:** production-grade work that ships
@@ -38,9 +40,7 @@ Work moves through three lanes, and the outcomes are logged as Landings:
 
 Not all Landings mean the same thing. Customer Landings show delivered value. Business Landings show enablement. Platform Landings show capability and resilience. Decision Landings show learning. A healthy team may produce all four, but should not confuse learning or enablement with customer impact.
 
-Three core ceremonies a week. Zero status updates.
-
-Four lightweight ceremonies replace sprint planning and daily standups:
+Three weekly steering points keep the boat moving. Zero status updates.
 
 The default rhythm is Monday / Wednesday / Friday, but teams should shift the cadence to match their working week. The important pattern is start-of-week steering, mid-week course correction, and end-of-week Landing.
 
@@ -49,7 +49,17 @@ The default rhythm is Monday / Wednesday / Friday, but teams should shift the ca
 | **Monday** | Set Course (30 min) | What are we landing this week? |
 | **Wednesday** | Course Check (15 min) | Still on track? Adjust now. |
 | **Friday** | The Landing (30 min) | What landed, who benefited, what did we learn? |
-| **Fortnightly** | Route Planning (60 min) | Shape what's coming. What needs Preview before Build? |
+
+Route Planning keeps the next few weeks shapeable. It is part of the operating model, but teams can defer the first session if they already have enough shaped work to begin.
+
+| | | |
+|---|---|---|
+| **Fortnightly** | Route Planning (60 min) | Keep the next 2-4 weeks shaped enough that weekly steering does not become backlog grooming. |
+
+Learning Review and Fleet Sync are periodic or adaptive loops.
+
+| | | |
+|---|---|---|
 | **4 wks** | **Learning Review** (30 min) | What is the recent work teaching us about WIP, Landing mix, Run load, and how the model is working? |
 
 If you run multiple boats, add a lightweight **Fleet Sync** every two weeks: 30 minutes, one representative per boat plus product and engineering leadership, focused only on dependencies, shared platform priorities, and cross-boat risks.
@@ -86,14 +96,47 @@ No standups. No points. No sprint commitments. No burndown charts. No velocity t
 
 | You are… | Read this |
 |---|---|
+| Someone wanting the fastest orientation | [Speedboat on a Page](docs/one-page-summary.md) |
 | A leader evaluating whether to try this | [Leadership Brief](docs/leadership-brief.md) |
 | A team about to adopt Speedboat | [Getting Started](guides/getting-started.md) |
+| A team wanting the full system explained | [Full Guide](docs/model.md) |
 | A team that has started and needs more structure | [When To Add More Structure](guides/when-to-add-more-structure.md) |
-| An engineer wanting the 2-minute version | [One-Page Summary](docs/one-page-summary.md) |
 | A team using AI agents heavily | [AI Agents in Speedboat](docs/ai-agents.md) |
 | A facilitator running a ceremony | [Ceremony Guides](guides/ceremonies/) |
 | Setting up your board | [Jira Setup](setup/jira.md) |
 | Stuck or confused about something | [FAQ & Troubleshooting](docs/faq.md) |
+
+## Recommended Paths
+
+If you want a shorter adoption route instead of browsing the library, start here:
+
+### I'm new to Speedboat
+
+- [Speedboat on a Page](docs/one-page-summary.md)
+- [Getting Started](guides/getting-started.md)
+- [Which Lane?](guides/which-lane.md)
+
+### I'm trying it with a team next week
+
+- [Getting Started](guides/getting-started.md)
+- [Jira Setup](setup/jira.md)
+- [Set Course](guides/ceremonies/set-course.md)
+- [Course Check](guides/ceremonies/course-check.md)
+- [The Landing](guides/ceremonies/the-landing.md)
+
+### I'm leading a formal trial
+
+- [Leadership Brief](docs/leadership-brief.md)
+- [Getting Started](guides/getting-started.md)
+- [Trial Evaluation](templates/trial-evaluation.md)
+- [Team Survey](templates/team-survey.md)
+
+### I'm already running it and hitting complexity
+
+- [When To Add More Structure](guides/when-to-add-more-structure.md)
+- [Route Planning](guides/ceremonies/route-planning.md)
+- [Learning Review](guides/ceremonies/learning-review.md)
+- [Fleet Sync](guides/ceremonies/fleet-sync.md)
 
 ---
 
@@ -102,8 +145,8 @@ No standups. No points. No sprint commitments. No burndown charts. No velocity t
 ```
 speedboat/
 ├── docs/
-│   ├── model.md                    # The full operating model
-│   ├── one-page-summary.md         # Printable one-pager
+│   ├── model.md                    # Full guide to the operating model
+│   ├── one-page-summary.md         # Speedboat on a page / cheat sheet
 │   ├── ai-agents.md                # How AI agents fit within the lanes
 │   ├── leadership-brief.md         # Proposal for leadership buy-in
 │   └── faq.md                      # Common questions and troubleshooting

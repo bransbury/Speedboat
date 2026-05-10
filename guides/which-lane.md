@@ -43,22 +43,26 @@ START
 
 ## Quick Rules of Thumb
 
-| Signal | Lane |
-|---|---|
-| "I don't know if we should build this" | Preview (Discovery) |
-| "Sales needs something to show" | Preview (Demo) |
-| "We've decided to build this properly" | Build |
-| "This broke / this is urgent" | Run (Reactive) |
-| "We should fix this before it breaks" | Run (Proactive) |
-| "This is live / this reached someone" | Landing |
+If you're thinking:
+
+- "I don't know if we should build this" -> Preview (Discovery)
+- "Sales needs something to show" -> Preview (Demo)
+- "We've decided to build this properly" -> Build
+- "This broke / this is urgent" -> Run (Reactive)
+- "We should fix this before it breaks" -> Run (Proactive)
+- "This is live / this reached someone" -> Landing
+
+If you're not sure, it's probably a Preview.
 
 ---
 
 ## Common Mistakes
 
-| Mistake | Correction |
-|---|---|
-| Putting exploratory work in Build | If there are open questions about whether to build it, it's a Preview first |
-| Treating Run work as invisible | Run is a first-class lane — make it a card, tag it, track it |
-| Skipping the Landing log | If it reached a beneficiary, log it. Landings are how we measure progress. |
-| Preview that's been running 2+ weeks | It's either Build in disguise or it needs to be killed. Raise it Friday. |
+- Don't put exploratory work in Build.
+  Do treat it as a Preview first when there are still open questions.
+- Don't let Run work stay invisible.
+  Do make it a first-class card, tag it, and track it.
+- Don't skip the Landing log.
+  Do log it when work reaches a beneficiary.
+- Don't let a Preview run for 2+ weeks without a decision.
+  Do raise it on Friday and decide whether it is Build in disguise or should be killed.

@@ -58,10 +58,13 @@ Fleet Sync is not a status meeting and not a second Route Planning session. Boat
 
 ## Anti-Patterns
 
-| ❌ Don't | ✅ Do |
-|---|---|
-| Turn it into round-robin status updates | Only discuss items crossing boat boundaries |
-| Re-plan a boat's internal work | Keep boat-local shaping in Route Planning |
-| Let dependencies stay vague | Name the requesting boat, owning boat, next step, and target date |
-| Treat every platform request as urgent | Make explicit priority calls and defer openly when needed |
-| Leave risks implied | Name the risk, owner, and mitigation |
+- Don't turn Fleet Sync into round-robin status updates.
+	Do discuss only items that cross boat boundaries.
+- Don't re-plan a boat's internal work.
+	Do keep boat-local shaping in Route Planning.
+- Don't let dependencies stay vague.
+	Do name the requesting boat, owning boat, next step, and target date.
+- Don't treat every platform request as urgent.
+	Do make explicit priority calls and defer openly when needed.
+- Don't leave risks implied.
+	Do name the risk, owner, and mitigation.

@@ -60,10 +60,13 @@ Keep it lightweight. If you leave with a long list, you are probably trying to c
 
 ## Anti-Patterns
 
-| ❌ Don't | ✅ Do |
-|---|---|
-| Turn it into a complaint session | Use the work and the evidence as the anchor |
-| Re-open every annoyance from the month | Focus on the few patterns that matter most |
-| Make five process changes at once | Pick 1–2 adjustments and watch the effect |
-| Judge people | Examine the system, the flow, and the trade-offs |
-| Skip it because Friday has a learning slot | Weekly tactical learning and monthly model learning solve different problems |
+- Don't turn it into a complaint session.
+	Do anchor the conversation in the work and the evidence.
+- Don't re-open every annoyance from the month.
+	Do focus on the few patterns that matter most.
+- Don't make five process changes at once.
+	Do pick one or two adjustments and watch the effect.
+- Don't judge people.
+	Do examine the system, the flow, and the trade-offs.
+- Don't skip it because Friday has a learning slot.
+	Do treat weekly tactical learning and monthly model learning as different loops.

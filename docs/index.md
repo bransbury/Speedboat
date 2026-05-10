@@ -6,8 +6,9 @@ title: Speedboat Docs
 
 # Docs
 
-- [Operating Model](model.md)
-- [One-Page Summary](one-page-summary.md)
-- [Leadership Brief](leadership-brief.md)
+- [Speedboat on a Page](one-page-summary.md)
+- [Getting Started](../guides/getting-started.md)
+- [Full Guide](model.md)
 - [FAQ & Troubleshooting](faq.md)
+- [Leadership Brief](leadership-brief.md)
 - [AI Agents in Speedboat](ai-agents.md)

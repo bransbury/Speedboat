@@ -89,12 +89,17 @@ The Landing captures tactical learning. Use the separate Learning Review every 4
 
 ## Anti-Patterns
 
-| ❌ Don't | ✅ Do |
-|---|---|
-| Demo without stating beneficiary and outcome | Every Landing answers: who benefited and what changed? |
-| Let Previews "continue" indefinitely | One continuation max. Next Friday is a hard decision. |
-| Skip the learning question | Even one sentence makes the week's work compound |
-| Treat it as a performance review | This is about the work, not judging individuals |
-| Try to do a full process review in 5 minutes | Capture tactical learning here and save the wider model questions for the Learning Review |
-| Rush through to end early | The Landing is where Speedboat generates its value — give it the full 30 minutes |
-| Forget to update the Landing Log | If it's not logged, it didn't land (for measurement purposes) |
+- Don't demo work without stating beneficiary and outcome.
+	Do answer who benefited and what changed for every Landing.
+- Don't let Previews continue indefinitely.
+	Do allow one continuation at most, then make a hard decision next Friday.
+- Don't skip the learning question.
+	Do capture at least one sentence so the week compounds.
+- Don't treat The Landing as a performance review.
+	Do keep it about the work, not the individuals.
+- Don't try to do a full process review in five minutes.
+	Do capture tactical learning here and save wider model questions for the Learning Review.
+- Don't rush through to end early.
+	Do use the full 30 minutes; this is where Speedboat generates value.
+- Don't forget to update the Landing Log.
+	Do log the work if you want it to count as landed.

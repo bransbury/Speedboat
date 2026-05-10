@@ -64,13 +64,19 @@ Route Planning is also the main promotion point from the unshaped backlog into t
 
 ## Anti-Patterns
 
-| ❌ Don't | ✅ Do |
-|---|---|
-| Turn it into detailed task breakdown | Shape and slice, don't decompose into sub-tasks |
-| Plan more than 4 weeks ahead in detail | Shape near-term, sketch far-term |
-| Skip the "does this need a Preview?" question | This is how you avoid building the wrong thing |
-| Let Product or Engineering dominate | This is a joint session — both perspectives matter |
-| Ignore Run load when planning capacity | If Run is eating 30%, you can't plan for 100% Build |
-| Commit to everything discussed | This is a shaping session, not a commitment ceremony — Monday's Set Course is where we commit for the week |
-| Try to solve every cross-boat dependency in the room | Surface it, name it, and take it to Fleet Sync if it affects more than one boat |
-| Pull unshaped work straight into Build mid-cycle | Put it in the unshaped backlog first unless it is urgent enough for Run or the exception protocol |
+- Don't turn Route Planning into detailed task breakdown.
+	Do shape and slice without decomposing into sub-tasks.
+- Don't plan more than 4 weeks ahead in detail.
+	Do shape near-term work and sketch the rest.
+- Don't skip the question of whether something needs a Preview.
+	Do use that question to avoid building the wrong thing.
+- Don't let Product or Engineering dominate.
+	Do keep it a joint shaping session.
+- Don't ignore Run load when planning capacity.
+	Do adjust expectations if Run is eating a meaningful share of time.
+- Don't commit to everything discussed.
+	Do remember this is shaping; Monday Set Course is where weekly commitment happens.
+- Don't try to solve every cross-boat dependency in the room.
+	Do surface it, name it, and take it to Fleet Sync when it crosses boat boundaries.
+- Don't pull unshaped work straight into Build mid-cycle.
+	Do put it through the unshaped backlog first unless it is urgent enough for Run or the exception protocol.
