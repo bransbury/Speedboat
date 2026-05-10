@@ -1,5 +1,7 @@
 # Wednesday — Course Check
 
+[Home](../../index.md) | [Docs](../../docs/index.md) | [Guides](../index.md) | [Ceremonies](index.md) | [Templates](../../templates/index.md) | [Setup](../../setup/index.md)
+
 **Duration:** 15 minutes (hard stop)
 **Facilitator:** Same person as Monday
 **When:** Mid-week

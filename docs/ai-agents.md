@@ -1,5 +1,7 @@
 # AI Agents in Speedboat
 
+[Home](../index.md) | [Docs](index.md) | [Guides](../guides/index.md) | [Ceremonies](../guides/ceremonies/index.md) | [Templates](../templates/index.md) | [Setup](../setup/index.md)
+
 Use this guide if your team is using autonomous or semi-autonomous AI agents alongside Speedboat.
 
 The short version: AI agents can accelerate work inside every lane, but they do not change who owns decisions or lower the finishing cost.

@@ -1,10 +1,16 @@
 # Speedboat — Landing Log
 
-Use this as a weekly template. Create one copy per week, or duplicate the Week section inside one running doc or spreadsheet.
+[Home](../index.md) | [Docs](../docs/index.md) | [Guides](../guides/index.md) | [Ceremonies](../guides/ceremonies/index.md) | [Templates](index.md) | [Setup](../setup/index.md)
+
+This is the single weekly output for Speedboat.
+
+Use it as a weekly template. Create one copy per week, or duplicate the Week section inside one running doc or spreadsheet.
 
 The facilitator may update it live, but the Captain is accountable for making sure the log stays current.
 
-Use the last 4 Landing Logs plus the Weekly Snapshots when preparing the monthly stakeholder summary.
+Start with the simple weekly log below. Add the optional detail only when the team needs it.
+
+Use the last 4 Landing Logs when preparing the monthly stakeholder summary.
 
 ---
 
@@ -12,16 +18,20 @@ Use the last 4 Landing Logs plus the Weekly Snapshots when preparing the monthly
 
 ### Landings
 
-| Date | Title | Landing Type | Beneficiary | Outcome | Source | Notes |
-|---|---|---|---|---|---|---|
-| | | Customer / Business / Platform / Decision | | | Promoted Preview / Roadmap / Customer Need / Platform / Run | |
-| | | | | | | |
-| | | | | | | |
-| | | | | | | |
+| Title | Landing Type | Beneficiary | Outcome |
+|---|---|---|---|
+| | Customer / Business / Platform / Decision | | |
+| | | | |
+| | | | |
+| | | | |
 
 ---
 
-### Preview Decisions
+## Add Later If Needed
+
+If the team wants more detail after the first few cycles, add these sections.
+
+### Optional: Preview Decisions
 
 Record every Friday Preview decision here, or as fields on the Jira card. Pick one method and use it consistently.
 
@@ -34,11 +44,10 @@ Record every Friday Preview decision here, or as fields on the Jira card. Pick o
 
 ---
 
-### Notes (optional)
+### Optional: Notes
 
 - Estimated Run %:
 - Key learning:
-- Link to Weekly Snapshot:
 
 ---
 
@@ -48,6 +57,6 @@ Record every Friday Preview decision here, or as fields on the Jira card. Pick o
 - **Landing Type:** Customer (live to users), Business (Sales-ready, GTM-enabled), Platform (debt, observability, risk), Decision (Preview killed/parked/promoted)
 - **Beneficiary:** Be specific — "Enterprise customers on Pro plan", "Sales team for Q3 pipeline", "Platform team (reduced incident risk)"
 - **Outcome:** What's true now that wasn't before? One sentence.
-- **Source:** Where did this work originate?
-- **Notes:** Beta flags, rollout details, follow-up work, anything worth remembering
+- **Source:** If you add the optional field, note where the work originated.
+- **Notes:** If you add the optional field, use it for rollout detail or useful follow-up context.
 - **Learning (Preview log):** Even for promoted Previews, capture what you learned. Especially for killed ones.

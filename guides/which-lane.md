@@ -1,5 +1,7 @@
 # Speedboat — Which Lane?
 
+[Home](../index.md) | [Docs](../docs/index.md) | [Guides](index.md) | [Ceremonies](ceremonies/index.md) | [Templates](../templates/index.md) | [Setup](../setup/index.md)
+
 Use this when you're not sure where a piece of work belongs.
 
 Preview, Build, and Run are the work lanes.

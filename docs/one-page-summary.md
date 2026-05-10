@@ -1,6 +1,10 @@
 # SPEEDBOAT
 
+[Home](../index.md) | [Docs](index.md) | [Guides](../guides/index.md) | [Ceremonies](../guides/ceremonies/index.md) | [Templates](../templates/index.md) | [Setup](../setup/index.md)
+
 ### Start less. Learn faster. Land more.
+
+Every week, the boat chooses what to Land, limits what it starts, makes Run visible, and learns from what actually happened.
 
 ---
 
@@ -13,7 +17,7 @@
 **PREVIEW, BUILD, and RUN** are the work lanes.
 
 **PREVIEW**: Quick prototypes, PoCs, or demos to learn and enable conversations.
-Max 3 active. 1–5 day timebox. Decision every Friday: kill, park, continue, or promote.
+Max 3 active. 1–5 day timebox. Decision every Friday: kill, park, continue, or promote. Previews should not drift without a decision.
 Two types: **Discovery** (should we build this?) and **Demo** (make it real for Sales/customers).
 
 **BUILD**: Production-grade capability work. Max 3 active. Quality bar unchanged.
@@ -24,9 +28,9 @@ Big bets can span multiple weeks, but they should move through meaningful partia
 
 | Customer | Business | Platform | Decision |
 |---|---|---|---|
-| Feature live, beta, fix deployed | Demo ready, GTM enabled | Debt removed, risk reduced | Preview killed/parked with learning |
+| Feature live, beta, fix deployed | Demo ready, GTM enabled | Debt removed, risk reduced | Preview killed, parked, or promoted with learning |
 
-For the full logging format, use the [Landing Log template](../templates/landing-log.md).
+Record weekly outcomes in the [Landing Log](../templates/landing-log.md).
 
 **RUN**: Visible operational work. Split reactive (incidents, escalations) and proactive (debt, upgrades, automation). Aim ≤20%. Track honestly.
 
@@ -42,19 +46,20 @@ For the full logging format, use the [Landing Log template](../templates/landing
 | **2 wks** | **Route Planning** (60 min) | Shape upcoming work. What needs Preview before Build? |
 | **4 wks** | **Learning Review** (30 min) | What is the recent work teaching us about the model, WIP, Landing mix, and Run load? |
 
+If you run multiple boats, add **Fleet Sync** every 2 weeks to handle dependencies, shared platform priorities, and cross-boat risks.
+
 ---
 
 ## PRINCIPLES
 
 1. Customer impact is the unit of progress
-2. Start less work than we think we can
+2. Start less than we think we can
 3. Preview cheaply, decide quickly
-4. Build fewer things at once
-5. Prioritise Landing over starting
-6. Make Run work visible
-7. Use AI aggressively, but keep human ownership
-8. Product owns value; Engineering owns production readiness
-9. In short weeks, reduce scope, not discipline
+4. Prioritise Landing over starting
+5. Make trade-offs and Run work visible
+6. Keep the quality bar unchanged
+7. Use AI to accelerate work, not replace judgement
+8. In short weeks, reduce scope, not discipline
 
 ---
 

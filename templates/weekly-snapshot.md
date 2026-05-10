@@ -1,6 +1,18 @@
 # Speedboat — Weekly Snapshot Template
 
-Post this to the team channel every Friday after The Landing ceremony. Takes ~5 minutes to fill in.
+[Home](../index.md) | [Docs](../docs/index.md) | [Guides](../guides/index.md) | [Ceremonies](../guides/ceremonies/index.md) | [Templates](index.md) | [Setup](../setup/index.md)
+
+This is optional.
+
+If a team wants a chat or stakeholder update, derive it from the Landing Log. Do not maintain this as a second weekly system of record.
+
+---
+
+## When to use this
+
+Use this only if you need a lightweight outward-facing summary.
+
+The Landing Log remains the single weekly output.
 
 ---
 
@@ -71,10 +83,10 @@ Post this to the team channel every Friday after The Landing ceremony. Takes ~5 
 
 ## Tips
 
+- **Start with the Landing Log.** If the log is not current, do not fill this in.
 - **Keep it short.** This is a signal, not a report. If it takes more than 5 minutes, you're over-thinking it.
 - **Be honest about 🔴.** Missed landings aren't failures — hiding them is. Naming them early prevents surprises.
 - **Run % is an estimate.** Don't spend time calculating it precisely. Rough is fine. The trend over weeks is what matters.
-- **Post it publicly.** The snapshot is for the team, but also for anyone who wants to see what the team is doing without attending ceremonies.
-- **Captain accountability still applies.** The facilitator may draft the snapshot, but the Captain is accountable for making sure it gets published.
-- **Use it as source material.** Every 4 weeks, combine the recent snapshots with the Landing Log to prepare the monthly stakeholder summary.
-- **Link to the Landing Log.** If someone wants detail, point them to the full log rather than expanding the snapshot.
+- **Post it publicly if you use it.** It is for people who want the weekly signal without opening the full log.
+- **Captain accountability still applies.** If used, the facilitator may draft it, but the Captain is accountable for making sure it matches the Landing Log.
+- **Never update this instead of the Landing Log.** This is downstream communication, not the primary record.

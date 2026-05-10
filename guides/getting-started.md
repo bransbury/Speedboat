@@ -1,9 +1,104 @@
 # Getting Started with Speedboat
 
-This is your Week 0 checklist. Everything you need to go from "we're trying this" to "we're running it" in a single day.
+[Home](../index.md) | [Docs](../docs/index.md) | [Guides](index.md) | [Ceremonies](ceremonies/index.md) | [Templates](../templates/index.md) | [Setup](../setup/index.md)
 
-**Time to set up:** ~2 hours if you can edit your board yourself; longer if you need Jira admin help or workflow changes.
-**Prerequisite:** You've read the [One-Page Summary](../docs/one-page-summary.md) and your leadership has endorsed a trial (see [Leadership Brief](../docs/leadership-brief.md) if you need to make the case).
+This guide is for a team trying Speedboat next week.
+
+Every week, the boat chooses what to Land, limits what it starts, makes Run visible, and learns from what actually happened.
+
+You do not need to understand the whole framework before starting.
+
+There are two ways to use this guide:
+
+- **Start this week:** follow only the Week 1 path below.
+- **When the simple version stops being enough:** use [When To Add More Structure](when-to-add-more-structure.html).
+
+**Recommended first read:** [One-Page Summary](../docs/one-page-summary.md)
+
+---
+
+## Start This Week
+
+If you are trying Speedboat next week, do these things first and ignore the rest until Friday:
+
+- Make sure the boat is small enough to move quickly. Speedboat works best with about 4-5 engineers.
+- Reuse or create one board.
+- Make active work visible as **Preview**, **Build**, or **Run** using swimlanes, labels, or another clear categorisation on the board.
+- Keep your normal execution columns such as **To Do / In Progress / Done**.
+- Pick 1-2 intended Landings for the week.
+- Limit Preview and Build to 3 active items each.
+- Run Monday Set Course, Wednesday Course Check, and Friday Landing.
+- Create a [Landing Log](../templates/landing-log.md) on Friday.
+
+---
+
+## Core Concepts To Remember In Your First Week
+
+If the team can answer these questions, you can start.
+
+### 1. What counts as a Landing?
+
+A Landing is meaningful work reaching its intended beneficiary. There are four types:
+
+- **Customer:** value live to a user or customer
+- **Business:** a sales, GTM, or stakeholder outcome
+- **Platform:** a resilience, debt, or capability improvement
+- **Decision:** a meaningful Preview outcome, including kill, park, or promote
+
+If something mattered to someone and changed what is true now, it can count as a Landing.
+
+### 2. How do we classify work as Preview, Build, or Run?
+
+- **Preview:** work to learn quickly before committing deeply
+- **Build:** production-grade work we have decided to ship properly
+- **Run:** operational work, both reactive and proactive
+
+Use [Which Lane?](which-lane.md) whenever the team is unsure.
+
+### 3. What are the three weekly ceremonies for?
+
+- **Set Course:** choose the intended Landing for the week
+- **Course Check:** decide what needs to change before the week is lost
+- **The Landing:** record what landed, decide every active Preview, and capture learning
+
+These are steering points, not status meetings.
+
+### 4. What is the WIP rule?
+
+Keep at most 3 active Preview items and 3 active Build items.
+
+If urgent Run breaks that limit, say so explicitly and name what is being paused. Hidden trade-offs are the problem, not the exception itself.
+
+### 5. What do we do when something does not land this week?
+
+We do not call the week a failure.
+
+We say what did not land, why, and what happens next: continue, reduce scope, pause it, or replace it.
+
+### 6. What belongs in Week 1 versus later?
+
+Week 1 is for starting the rhythm, making work visible, and updating the Landing Log.
+
+When you start to feel shaping pain, coordination pain, or reporting pain, use [When To Add More Structure](when-to-add-more-structure.html).
+
+---
+
+## Week 1 Action Checklist
+
+This is the minimum viable rollout.
+
+- [ ] Make sure the boat is small enough to move quickly, ideally about 4-5 engineers.
+- [ ] Create or reuse one board.
+- [ ] Make Preview, Build, and Run visible on the board using swimlanes, labels, or another clear categorisation.
+- [ ] Keep normal Kanban execution columns such as To Do, In Progress, and Done.
+- [ ] Move current in-flight work into the right lane. Do not wait for a clean start.
+- [ ] Create one [Landing Log](../templates/landing-log.md).
+- [ ] Pick 1-2 intended Landings for the week.
+- [ ] Limit Preview and Build to 3 active items each.
+- [ ] Run [Set Course](ceremonies/set-course.md), [Course Check](ceremonies/course-check.md), and [The Landing](ceremonies/the-landing.md).
+- [ ] Update the Landing Log on Friday.
+
+Week 1 should optimise for visibility, not tooling polish.
 
 ---
 
@@ -11,89 +106,10 @@ This is your Week 0 checklist. Everything you need to go from "we're trying this
 
 Make sure you can answer these questions:
 
-| Question | Why it matters |
-|---|---|
-| How long is the trial? | We recommend 4 weeks. Four iterations is enough to know whether the rhythm is working, without dragging out a decision. |
-| Does the team know this is coming? | Speedboat requires opt-in, not mandate. Introduce the idea before configuring the board. |
-| Is Product aligned? | Speedboat depends on Product and Engineering collaborating on Previews and Landing decisions. A one-line alignment is enough. A formal sign-off is not required. |
-| What's your current WIP? | Before you set limits, know your starting point. Count active items right now. If it's 12, getting to 6 will feel like a real change. |
-
----
-
-## Week 0 Checklist
-
-### Minimum viable rollout
-
-If you want the smallest possible version for Week 1, start with this:
-
-- [ ] One board with Preview, Build, Run, and a visible way to mark Landings
-- [ ] One [Landing Log](../templates/landing-log.md)
-- [ ] One [Weekly Snapshot](../templates/weekly-snapshot.md)
-- [ ] One shared understanding of WIP limits and Preview decisions
-
-Do not wait for perfect dashboards, automation, or backlog cleanup. Week 1 should optimise for visibility, not tooling polish.
-
-### Understand the model
-
-- [ ] Read the [One-Page Summary](../docs/one-page-summary.md) (~2 min)
-- [ ] Read the [full model](../docs/model.md) if you want the reasoning behind the design (~10 min)
-- [ ] Review the [Which Lane?](which-lane.md) decision tree. Make sure the lane boundaries feel clear to you before explaining them to the team.
-- [ ] Decide your boat boundaries if your wider group is larger than 5 engineers.
-
-### Set up the board
-
-- [ ] Follow the [Jira Setup Guide](../setup/jira.md) (or adapt for your tool)
-- [ ] Configure columns and WIP limits first; add custom fields, filters, and dashboards if you have the access and time
-- [ ] If Jira admin changes are slow, start with an existing board plus labels or conventions and tighten the setup later
-- [ ] Move existing in-flight work into the appropriate lanes. Don't wait for a clean start.
-
-### Set up tracking
-
-- [ ] Create your [Landing Log](../templates/landing-log.md) (spreadsheet, Confluence, Notion, wherever your team lives)
-- [ ] Bookmark the [Weekly Snapshot](../templates/weekly-snapshot.md) template
-- [ ] Bookmark the [Monthly Stakeholder Summary](../templates/monthly-stakeholder-summary.md) template
-- [ ] Decide where snapshots will be posted (Slack channel, Teams, email, pick one)
-- [ ] Decide where the monthly stakeholder summary will be shared (leadership channel, email, doc, pick one)
-
-### Set up the rhythm
-
-- [ ] Add ceremonies to the team calendar:
-
-| Ceremony | When | Duration | Invite |
-|---|---|---|---|
-| Set Course | Monday morning | 30 min | Whole team |
-| Course Check | Wednesday midday | 15 min | Whole team |
-| The Landing | Friday afternoon | 30 min | Whole team + optional stakeholders |
-| Route Planning | Every other week | 60 min | Engineering + Product |
-| Learning Review | Every 4 weeks | 30 min | Whole team |
-
-- [ ] Decide where your **unshaped backlog** will live so new ideas have one visible place to land
-- [ ] If you run multiple boats, add **Fleet Sync** every other week (30 min, one representative per boat + product/engineering leadership)
-- [ ] Fill in the [Facilitation Rotation](facilitation-rotation.md) schedule for the trial period
-- [ ] Print or bookmark the ceremony guides ([Monday](ceremonies/set-course.md) · [Wednesday](ceremonies/course-check.md) · [Friday](ceremonies/the-landing.md) · [Fortnightly](ceremonies/route-planning.md) · [Multi-boat: Fleet Sync](ceremonies/fleet-sync.md))
-
-Use something simple: a board column, a backlog list, or a shared doc. The important part is that new ideas become visible without quietly entering active work.
-
-### Introduce to the team
-
-- [ ] Walk through the one-page summary together
-- [ ] Explain the three work lanes and the Land outcome layer. Use the [Which Lane?](which-lane.md) decision tree for concrete examples from your own backlog.
-- [ ] Be clear about what's changing (ceremonies, WIP limits, Landing focus) and what's not (quality bar, release standards, who decides what to build)
-- [ ] Address concerns openly. The common ones:
-  - *"This feels like one-week sprints."* It's a steering rhythm, not a commitment cycle.
-  - *"What if we can't land something every week?"* A Decision Landing (killing a bad Preview) counts. The ask is meaningful, not forced.
-  - *"What about my ongoing work?"* Move it into the right lane. Nothing resets to zero.
-- [ ] Agree on the trial length (4 weeks recommended)
-- [ ] Secure explicit opt-in. The team should want to try this, not feel it's being imposed.
-
-### Pick the first week's intended Landings
-
-Before the first Set Course, look at your current in-flight work and choose 1-2 intended Landings for Week 1.
-
-- [ ] Pick the items most likely to reach a real beneficiary this week
-- [ ] Prefer something already in motion over something new and hypothetical
-- [ ] If nothing can realistically land, choose the smallest meaningful partial outcome or an explicit Decision Landing
-- [ ] Name what you will not start yet
+- **How long is the trial?** Four weeks is usually enough to get signal without dragging it out.
+- **Does the team know this is coming?** Speedboat requires opt-in, not surprise.
+- **Is Product aligned?** Product and Engineering need a shared view of Preview and Landing decisions.
+- **What is your current WIP?** Count active items now so the team can see the change clearly.
 
 ---
 
@@ -101,11 +117,10 @@ Before the first Set Course, look at your current in-flight work and choose 1-2 
 
 You are not trying to be perfect. You are trying to start the rhythm.
 
-- [ ] **Monday:** Run Set Course. Pick 1–2 intended Landings for the week. Don't overthink it.
-- [ ] **Monday:** Check WIP. If you're above the limits, don't panic. Name what you intend to finish before starting anything new.
-- [ ] **Wednesday:** Run Course Check. Keep it to 15 minutes. Ask: "Red, amber, or green on each intended Landing?"
-- [ ] **Friday:** Run The Landing. Walk what landed. Decide every active Preview. Post your first Weekly Snapshot.
-- [ ] **Friday:** Update the Landing Log.
+- [ ] **Monday:** Run [Set Course](ceremonies/set-course.md). Pick 1-2 intended Landings for the week.
+- [ ] **Monday:** Check WIP. If you are above the limits, do not panic. Name what needs to finish before anything new starts.
+- [ ] **Wednesday:** Run [Course Check](ceremonies/course-check.md). Ask what needs to change before Friday.
+- [ ] **Friday:** Run [The Landing](ceremonies/the-landing.md). Record what landed, decide every active Preview, and update the Landing Log.
 - [ ] **After Friday:** Resist the urge to retrospect on the process itself. You have one data point. The process will feel clunky. That's fine. Give it time.
 
 ### What "good" looks like in Week 1
@@ -114,14 +129,8 @@ You are not trying to be perfect. You are trying to start the rhythm.
 - WIP limits are visible, even if not yet respected perfectly
 - At least one thing landed (any type)
 - Every active Preview got a Friday decision
+- The Landing Log reflects reality
 - The board reflects reality
-
-### What "good" does NOT look like in Week 1
-
-- Every ceremony ran perfectly to script
-- WIP was within limits all week
-- Multiple Customer Landings
-- The team loves the new process
 
 Give it time. Week 1 is about starting the habit, not proving the model.
 
@@ -129,27 +138,41 @@ Give it time. Week 1 is about starting the habit, not proving the model.
 
 ## Week 2 and Beyond
 
-- [ ] **Week 2:** Run your first Route Planning session. Shape the next 2–4 weeks. Identify what needs a Preview before committing to Build.
+- [ ] **Week 2:** If shaping is already painful, add [Route Planning](ceremonies/route-planning.md). If not, add it within the first few cycles.
 - [ ] **Weeks 2–3:** Tune. Adjust ceremony timing if needed. Fix confusion about which lane work belongs in. Watch for zombie Previews.
-- [ ] **Week 3:** Prepare for evaluation. Bookmark the [Trial Evaluation Template](../templates/trial-evaluation.md). Start gathering data from the Landing Log, snapshots, and board.
-- [ ] **Week 4:** Draft the [Monthly Stakeholder Summary](../templates/monthly-stakeholder-summary.md) before the Learning Review so the team can look back at what landed, what the mix is saying, and what is likely next.
-- [ ] **Week 4:** Run a short [Learning Review](ceremonies/learning-review.md). Ask what the last 4 weeks are teaching you before you jump to conclusions.
-- [ ] **Week 4:** Evaluate. Fill in the trial evaluation. Run the [Team Survey](../templates/team-survey.md). Gather Product and Sales feedback. Decide: continue, adjust, expand, or stop.
+- [ ] **Week 3-4:** If the team needs more structure, use [When To Add More Structure](when-to-add-more-structure.html).
 
-If you continue after the trial, keep the Learning Review as the standing monthly feedback loop. The weekly learning slot in Friday's Landing is useful, but it is not enough on its own.
+If you continue after the trial, keep the Learning Review as the standing monthly feedback loop.
+
+---
+
+## Doing It Right
+
+You are doing Speedboat right if the team has:
+
+- fewer hidden commitments
+- fewer half-finished threads
+- clearer weekly outcomes
+- a more honest view of operational load
+
+You are not doing Speedboat right if:
+
+- everything becomes a Landing
+- Previews never end
+- Run is hidden
+- WIP limits are routinely ignored without being named
+- Friday becomes a status meeting
 
 ---
 
 ## Common Week 1 Problems
 
-| Problem | What to do |
-|---|---|
-| WIP is way over the limit | Don't force-stop work. Name the excess, finish what you can, and respect the limits for new starts. It normalises within 1–2 weeks. |
-| Nobody landed anything | That's fine for Week 1. Check: did you set an intended Landing on Monday? Was it realistic? Adjust ambition, not the model. |
-| "I don't know which lane this is" | Use the [Which Lane?](which-lane.md) decision tree. If it's genuinely ambiguous, default to Preview. |
-| A P1 incident blew up the week | That's Run (Reactive). Name what got paused. This is Speedboat working as intended: making trade-offs visible, not pretending they don't happen. |
-| The team thinks this is just one-week sprints | Reinforce: there is no sprint commitment. Monday sets direction. Friday shows outcomes. Nothing is "failed" if it didn't land. It carries forward with a reason. |
-| Someone asks "where are the story points?" | Gone. Speedboat measures Landings (outcomes), not effort estimates. If this feels uncomfortable, that discomfort is worth discussing openly. |
+- **WIP is way over the limit:** Do not force-stop work. Name the excess, finish what you can, and respect the limits for new starts.
+- **Nobody landed anything:** That is fine for Week 1. Adjust ambition, not the model.
+- **"I don't know which lane this is":** Use [Which Lane?](which-lane.md). If it is genuinely ambiguous, default to Preview.
+- **A P1 incident blew up the week:** That is Run. Name what got paused.
+- **The team thinks this is just one-week sprints:** Reinforce that the weekly cadence is for steering, not commitment.
+- **Someone asks where the story points are:** Gone. Speedboat measures Landings, not estimates.
 
 ---
 
@@ -157,6 +180,6 @@ If you continue after the trial, keep the Learning Review as the standing monthl
 
 The most important thing in Week 1 is not running the model perfectly. It's starting the rhythm and making work visible. Everything else can be tuned.
 
-If you get stuck, check the [FAQ](../docs/faq.md). If something's missing from this repo, [open an issue](../../issues).
+If you get stuck, check the [FAQ](../docs/faq.md). If something's missing from this repo, [open an issue](https://github.com/bransbury/Speedboat/issues).
 
 Good luck. Start less. Learn faster. Land more.

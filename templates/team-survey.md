@@ -1,5 +1,7 @@
 # Speedboat Trial: Team Survey
 
+[Home](../index.md) | [Docs](../docs/index.md) | [Guides](../guides/index.md) | [Ceremonies](../guides/ceremonies/index.md) | [Templates](index.md) | [Setup](../setup/index.md)
+
 Run this survey anonymously at the end of the trial (or at the midpoint if running 6 weeks). Copy the questions into Google Forms, Typeform, or whatever your team uses.
 
 ---

@@ -1,5 +1,7 @@
 # Speedboat — Monthly Stakeholder Summary
 
+[Home](../index.md) | [Docs](../docs/index.md) | [Guides](../guides/index.md) | [Ceremonies](../guides/ceremonies/index.md) | [Templates](index.md) | [Setup](../setup/index.md)
+
 Prepare this every 4 weeks for leadership, Product, Sales, and adjacent stakeholders.
 
 Use the Landing Log and the last 4 Weekly Snapshots as inputs. Keep it short. This is not a status report and not a roadmap deck.

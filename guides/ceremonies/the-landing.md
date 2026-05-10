@@ -1,5 +1,7 @@
 # Friday — The Landing
 
+[Home](../../index.md) | [Docs](../../docs/index.md) | [Guides](../index.md) | [Ceremonies](index.md) | [Templates](../../templates/index.md) | [Setup](../../setup/index.md)
+
 **Duration:** 30 minutes
 **Facilitator:** Rotates weekly
 **When:** End of the week (Friday by default; shift to match your working week)

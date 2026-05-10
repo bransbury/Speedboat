@@ -1,5 +1,7 @@
 # Speedboat — Facilitation Rotation Guide
 
+[Home](../index.md) | [Docs](../docs/index.md) | [Guides](index.md) | [Ceremonies](ceremonies/index.md) | [Templates](../templates/index.md) | [Setup](../setup/index.md)
+
 ---
 
 ## Why Rotate?

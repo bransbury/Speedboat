@@ -1,5 +1,7 @@
 # Speedboat — Trial Evaluation
 
+[Home](../index.md) | [Docs](../docs/index.md) | [Guides](../guides/index.md) | [Ceremonies](../guides/ceremonies/index.md) | [Templates](index.md) | [Setup](../setup/index.md)
+
 Use this at the end of a 4–6 week trial to decide: continue, adjust, expand, or stop.
 
 ---

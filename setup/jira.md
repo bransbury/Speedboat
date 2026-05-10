@@ -1,5 +1,7 @@
 # Speedboat — Jira Board Configuration Guide
 
+[Home](../index.md) | [Docs](../docs/index.md) | [Guides](../guides/index.md) | [Ceremonies](../guides/ceremonies/index.md) | [Templates](../templates/index.md) | [Setup](index.md)
+
 ## Overview
 This guide shows the easiest way to run Speedboat in Jira without admin access.
 

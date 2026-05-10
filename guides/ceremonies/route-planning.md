@@ -1,5 +1,7 @@
 # Fortnightly — Route Planning
 
+[Home](../../index.md) | [Docs](../../docs/index.md) | [Guides](../index.md) | [Ceremonies](index.md) | [Templates](../../templates/index.md) | [Setup](../../setup/index.md)
+
 **Duration:** 60 minutes
 **Facilitator:** Engineering lead + Product lead (jointly)
 **When:** Every two weeks, ideally early in the week (replaces sprint planning)

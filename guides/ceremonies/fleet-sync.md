@@ -1,5 +1,7 @@
 # Fortnightly — Fleet Sync
 
+[Home](../../index.md) | [Docs](../../docs/index.md) | [Guides](../index.md) | [Ceremonies](index.md) | [Templates](../../templates/index.md) | [Setup](../../setup/index.md)
+
 **Duration:** 30 minutes
 **Facilitator:** Engineering leadership + Product leadership
 **When:** Every two weeks, only if you run multiple boats

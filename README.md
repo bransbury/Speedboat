@@ -1,5 +1,7 @@
 # Speedboat
 
+[Home](index.md) | [Docs](docs/index.md) | [Guides](guides/index.md) | [Ceremonies](guides/ceremonies/index.md) | [Templates](templates/index.md) | [Setup](setup/index.md) | [Changelog](CHANGELOG.md)
+
 ### Scrum was designed for a world where writing code was the expensive part. That world is gone.
 
 In an AI-accelerated environment, teams do not automatically ship faster. They start more.
@@ -86,6 +88,7 @@ No standups. No points. No sprint commitments. No burndown charts. No velocity t
 |---|---|
 | A leader evaluating whether to try this | [Leadership Brief](docs/leadership-brief.md) |
 | A team about to adopt Speedboat | [Getting Started](guides/getting-started.md) |
+| A team that has started and needs more structure | [When To Add More Structure](guides/when-to-add-more-structure.md) |
 | An engineer wanting the 2-minute version | [One-Page Summary](docs/one-page-summary.md) |
 | A team using AI agents heavily | [AI Agents in Speedboat](docs/ai-agents.md) |
 | A facilitator running a ceremony | [Ceremony Guides](guides/ceremonies/) |
@@ -105,7 +108,8 @@ speedboat/
 │   ├── leadership-brief.md         # Proposal for leadership buy-in
 │   └── faq.md                      # Common questions and troubleshooting
 ├── guides/
-│   ├── getting-started.md          # Week 0 checklist: launch in a day
+│   ├── getting-started.md          # New-team guide: start next week
+│   ├── when-to-add-more-structure.md # When the simple version stops being enough
 │   ├── which-lane.md               # Decision tree: where does this work belong?
 │   ├── facilitation-rotation.md    # How to rotate ceremony facilitation
 │   └── ceremonies/

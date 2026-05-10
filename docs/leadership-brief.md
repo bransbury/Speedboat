@@ -1,5 +1,7 @@
 # Leadership Brief: Speedboat
 
+[Home](../index.md) | [Docs](index.md) | [Guides](../guides/index.md) | [Ceremonies](../guides/ceremonies/index.md) | [Templates](../templates/index.md) | [Setup](../setup/index.md)
+
 **An operating model for AI-accelerated software teams**
 
 | | |

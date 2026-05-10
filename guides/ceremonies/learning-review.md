@@ -1,5 +1,7 @@
 # Every 4 Weeks — Learning Review
 
+[Home](../../index.md) | [Docs](../../docs/index.md) | [Guides](../index.md) | [Ceremonies](index.md) | [Templates](../../templates/index.md) | [Setup](../../setup/index.md)
+
 **Duration:** 30 minutes
 **Facilitator:** Captain or rotating facilitator
 **When:** Every 4 weeks

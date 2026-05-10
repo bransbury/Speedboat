@@ -1,5 +1,9 @@
 # Speedboat: The Operating Model
 
+[Home](../index.md) | [Docs](index.md) | [Guides](../guides/index.md) | [Ceremonies](../guides/ceremonies/index.md) | [Templates](../templates/index.md) | [Setup](../setup/index.md)
+
+Every week, the boat chooses what to Land, limits what it starts, makes Run visible, and learns from what actually happened.
+
 ## Why now
 
 Scrum was designed for a world where writing the code was the expensive part. That world has changed.
@@ -80,6 +84,10 @@ The operating model creates the structure. AI provides the acceleration within i
 If you are using autonomous or semi-autonomous AI agents, the same rule still applies: they can accelerate exploration, implementation, and triage, but they do not reduce the finishing cost. Review, integration, rollout, and judgement remain human work. See [AI Agents in Speedboat](ai-agents.md).
 
 ---
+
+## Core concepts
+
+These are the parts a team needs first.
 
 ## The model
 
@@ -192,26 +200,11 @@ Before the Learning Review, prepare a lightweight monthly stakeholder summary fr
 
 ---
 
-## Multi-boat coordination
+## Controls
 
-Fleet Sync is optional for a single boat and useful for environments running multiple boats.
+These are the rules that keep the weekly rhythm honest once the team is moving.
 
-- **Attendees:** one representative per boat, usually the Captain, plus product and engineering leadership.
-- **Purpose:** surface dependencies before they become blockers, align on shared platform demand, and make cross-boat risks visible.
-- **Outputs:** named dependency owners, explicit shared-priority decisions, and visible risks with an owner and next step.
-
-Ownership stays lightweight:
-
-- The boat needing a dependency owns making the need explicit.
-- The boat providing the dependency owns committing or declining with a realistic timing view.
-- Engineering leadership breaks ties when multiple boats need the same shared platform capability.
-- Product leadership joins the decision when the trade-off affects customer or business outcomes across boats.
-
-Use Fleet Sync to expose cross-boat issues early. Do not turn it into a second Route Planning session.
-
----
-
-## Intake flow
+### Intake flow
 
 New work enters Speedboat through an **unshaped backlog**.
 
@@ -233,9 +226,7 @@ Only Route Planning should promote non-urgent work from the unshaped backlog int
 
 Do not quietly inject unshaped work into Build mid-week. New work becomes visible when it enters the system, not when it surprises the team.
 
----
-
-## Decision rights
+### Decision rights
 
 | Decision | Default owner |
 |---|---|
@@ -247,17 +238,58 @@ Do not quietly inject unshaped work into Build mid-week. New work becomes visibl
 
 When Product Lead and Captain disagree, they should resolve it explicitly and quickly. If they cannot resolve it within the same working day, the Captain initiates escalation to the next product and engineering leaders rather than leaving work in limbo.
 
----
+### Two rules
 
-## Two rules
-
-### Landing mix
+#### Landing mix
 
 Over any 4-week window we expect at least some Customer or Business Landings, unless the team has explicitly chosen a Platform/Run-heavy period. Platform-heavy by accident is a signal to course-correct.
 
-### Exception protocol
+#### Exception protocol
 
 WIP limits are a steering rule, not a wall. Urgent Run, customer escalations, and leadership overrides are allowed, but the team names what is being paused to make room during the next Set Course or Course Check. The Captain owns enforcing this exception protocol. Urgent Run does not violate Speedboat; hiding it does.
+
+### Big bets and multi-week Build
+
+Some work will take 6–8 weeks. That is normal.
+
+Speedboat does not require big bets to finish in a week. It does require them to stay visible, steerable, and sliceable.
+
+Treat a big bet as a multi-week initiative with one umbrella outcome, but shape the active work into the next meaningful partial Landings.
+
+Examples of partial Landings:
+
+- API live behind a feature flag
+- internal beta ready
+- first customer cohort enabled
+- observability and rollback path in place
+- risky dependency removed
+
+These are real Landings if they reach an intended beneficiary or materially reduce risk, enable downstream work, or make the next slice possible.
+
+If a Build effort runs for more than 2 weeks without a meaningful partial Landing, Route Planning should re-slice it or name explicitly why no such Landing is currently possible.
+
+---
+
+## Scaling patterns
+
+These matter when a single-boat rhythm is no longer enough.
+
+## Multi-boat coordination
+
+Fleet Sync is optional for a single boat and useful for environments running multiple boats.
+
+- **Attendees:** one representative per boat, usually the Captain, plus product and engineering leadership.
+- **Purpose:** surface dependencies before they become blockers, align on shared platform demand, and make cross-boat risks visible.
+- **Outputs:** named dependency owners, explicit shared-priority decisions, and visible risks with an owner and next step.
+
+Ownership stays lightweight:
+
+- The boat needing a dependency owns making the need explicit.
+- The boat providing the dependency owns committing or declining with a realistic timing view.
+- Engineering leadership breaks ties when multiple boats need the same shared platform capability.
+- Product leadership joins the decision when the trade-off affects customer or business outcomes across boats.
+
+Use Fleet Sync to expose cross-boat issues early. Do not turn it into a second Route Planning session.
 
 ---
 

@@ -7,6 +7,7 @@ title: Speedboat Guides
 # Guides
 
 - [Getting Started](getting-started.md)
+- [When To Add More Structure](when-to-add-more-structure.html)
 - [Which Lane?](which-lane.md)
 - [Facilitation Rotation](facilitation-rotation.md)
 - [Ceremony Guides](ceremonies/index.md)

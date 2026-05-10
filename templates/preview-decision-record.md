@@ -1,5 +1,7 @@
 # Preview Decision Record
 
+[Home](../index.md) | [Docs](../docs/index.md) | [Guides](../guides/index.md) | [Ceremonies](../guides/ceremonies/index.md) | [Templates](index.md) | [Setup](../setup/index.md)
+
 Use this to capture the Friday decision for each Preview. One record per Preview, updated each Friday until the Preview reaches a terminal state (killed, parked, or promoted).
 
 ---

@@ -1,5 +1,7 @@
 # FAQ and Troubleshooting
 
+[Home](../index.md) | [Docs](index.md) | [Guides](../guides/index.md) | [Ceremonies](../guides/ceremonies/index.md) | [Templates](../templates/index.md) | [Setup](../setup/index.md)
+
 Common questions, misconceptions, and real problems that come up during adoption.
 
 ---
