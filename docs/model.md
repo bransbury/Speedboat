@@ -63,10 +63,10 @@ Larger groups should split into multiple speedboats rather than scaling ceremoni
 Speedboat uses lightweight roles, not a heavyweight process structure.
 
 - **Product Lead:** owns product priority, intended outcomes, and what enters Preview or Build.
-- **Captain:** the engineering lead for the boat. Owns the health of the boat, WIP discipline, escalation, and engineering coordination.
-- **Crew:** everyone contributes across Preview, Build, Run, and rotating facilitation.
+- **Captain:** the engineering lead for the boat, typically the tech lead, team lead, or engineering manager closest to the day-to-day work. Owns the health of the boat, WIP discipline, escalation, and engineering coordination.
+- **Crew:** the rest of the engineering team. The Captain works with the crew, but carries explicit accountability for the health of the boat.
 
-The Captain is not a Scrum Master and does not own the backlog. Facilitation rotates, but accountability for the health of the boat does not.
+The Captain is not a Scrum Master and does not own the backlog. Product Lead is separate from the crew. Facilitation rotates, but accountability for the health of the boat does not.
 
 ---
 

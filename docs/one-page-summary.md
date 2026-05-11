@@ -38,6 +38,16 @@ Those are the work lanes. Land sits above them as the outcome layer.
 
 Record weekly outcomes in the [Landing Log](../templates/landing-log.md).
 
+## TEAM + ROLES
+
+Speedboat works best with a small boat of about 4-5 engineers.
+
+- **Product Lead** owns product priority and intended outcomes.
+- **Captain** is the engineering lead for the boat, typically the tech lead, team lead, or engineering manager closest to the day-to-day work. They own boat health, WIP discipline, escalation, and making sure the Landing Log stays current.
+- **Crew** is the rest of the engineering team. The Captain works with the crew, but carries explicit accountability for the health of the boat.
+
+Product Lead is separate from the crew. Facilitation rotates, but accountability for the health of the boat does not.
+
 ---
 
 ## RHYTHM

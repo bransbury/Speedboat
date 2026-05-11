@@ -22,6 +22,7 @@ There are two ways to use this guide:
 If you are trying Speedboat next week, do these things first and ignore the rest until Friday:
 
 - Make sure the boat is small enough to move quickly. Speedboat works best with about 4-5 engineers.
+- Name the three lightweight roles early: **Product Lead** owns priorities, **Captain** is the engineering lead closest to the day-to-day work, and **Crew** is the rest of the engineering team.
 - Reuse or create one board.
 - Make active work visible as **Preview**, **Build**, or **Run** using swimlanes, labels, or another clear categorisation on the board.
 - Keep your normal execution columns such as **To Do / In Progress / Done**.
@@ -81,6 +82,14 @@ We say what did not land, why, and what happens next: continue, reduce scope, pa
 Week 1 is for starting the rhythm, making work visible, and updating the Landing Log.
 
 When you start to feel shaping pain, coordination pain, or reporting pain, use [When To Add More Structure](when-to-add-more-structure.html).
+
+### 7. Who owns what?
+
+- **Product Lead:** owns product priority and intended outcomes.
+- **Captain:** the engineering lead for the boat, typically the tech lead, team lead, or engineering manager closest to the day-to-day work. Owns boat health, escalation, and WIP discipline.
+- **Crew:** the rest of the engineering team. The Captain works with the crew, but carries explicit accountability for the health of the boat.
+
+The facilitator may update the Landing Log live, but the Captain is accountable for making sure it stays current. Product Lead is not part of the crew, but should stay close to Landing and Preview decisions.
 
 ---
 

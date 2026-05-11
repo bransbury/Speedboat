@@ -32,8 +32,8 @@ It replaces sprint commitments with a weekly steering rhythm. It replaces veloci
 ### I'm trying it with a team next week
 
 - [Getting Started](guides/getting-started.md)
-- [How to Choose This Week's Landing](guides/choosing-what-to-land.md)
 - [Jira Setup](setup/jira.md)
+- [How to Choose This Week's Landing](guides/choosing-what-to-land.md)
 - [Set Course](guides/ceremonies/set-course.md)
 - [Course Check](guides/ceremonies/course-check.md)
 - [The Landing](guides/ceremonies/the-landing.md)

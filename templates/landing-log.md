@@ -12,6 +12,8 @@ Start with the simple weekly log below. Add the optional detail only when the te
 
 Use the last 4 Landing Logs when preparing the monthly stakeholder summary.
 
+Replace the sample rows below with your own entries each week.
+
 ---
 
 ## Week [N] — [Date range]
@@ -20,10 +22,10 @@ Use the last 4 Landing Logs when preparing the monthly stakeholder summary.
 
 | Title | Landing Type | Beneficiary | Outcome |
 |---|---|---|---|
-| | Customer / Business / Platform / Decision | | |
-| | | | |
-| | | | |
-| | | | |
+| New feature live | Customer | All customers | New feature now generally available. |
+| New feature flagged capability in production | Customer | Chosen partner accounts | New capability now in early access for chosen partner accounts. |
+| Demo feature in production | Business | Sales engineers / pre-sales | Sales engineers can now demo the capability to prospects and existing customers. |
+| Retry logic added to webhooks | Platform | Customers using webhooks (~30%) | Failures now auto-retry to avoid manual intervention and re-runs. |
 
 ---
 
@@ -37,6 +39,7 @@ Record every Friday Preview decision here, or as fields on the Jira card. Pick o
 
 | Date | Preview Title | Preview Type | Decision | Rationale | Code-Reuse Label | Learning |
 |---|---|---|---|---|---|---|
+| 2026-05-11 | AI Summary Feature | Demo | Promote | Demo feedback was very positive. | Foundation | Users responded strongly to seeing long updates summarized quickly, so the first Build slice should focus on summary quality and making the output easy to share. |
 | | | Discovery / Demo | Kill / Park / Continue / Promote | | Throwaway / Reference / Partial Reuse / Foundation | |
 | | | | | | | |
 | | | | | | | |
