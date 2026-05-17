@@ -33,7 +33,7 @@ Draft it before the 4-week Learning Review so the team can look back at delivere
    Platform: [N]
    Decision: [N]
 
-   [2-4 sentence readout.
+   [2–4 sentence readout.
    What pattern do we see?
    Is the mix healthy for this period?
    What trade-offs or learning matter most?]

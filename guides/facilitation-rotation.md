@@ -20,6 +20,8 @@
 - The rotation follows a fixed order so everyone knows when their week is coming
 - Facilitation rotates, but the **Captain** remains accountable for board hygiene, WIP discipline, and ceremony quality
 
+A WIP item is a meaningful unit of work the team is steering, not an individual ticket or subtask.
+
 ---
 
 ## Captain vs Facilitator
@@ -49,7 +51,7 @@ Fill in during Week 0. If someone is out, the next person in the rotation covers
 
 - [ ] Pull up the board
 - [ ] Note items still in flight from last week
-- [ ] Check WIP: Preview ≤3, Build ≤3
+- [ ] Check WIP: Preview ≤3, Build ≤3 meaningful work items
 - [ ] Flag any new urgent Run items
 - [ ] Have the Landing Log open (to reference last week's outcomes)
 
@@ -61,7 +63,7 @@ Fill in during Week 0. If someone is out, the next person in the rotation covers
 
 ### Friday — The Landing (10 min prep)
 
-- [ ] List everything that moved to Landed this week
+- [ ] List everything that became a Landing this week
 - [ ] List every active Preview that needs a decision
 - [ ] Have the Landing Log open and ready to update live
 - [ ] Have the Weekly Snapshot template ready to fill in after the meeting

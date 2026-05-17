@@ -2,7 +2,7 @@
 
 [Home](../index.md) | [Docs](index.md) | [Guides](../guides/index.md) | [Ceremonies](../guides/ceremonies/index.md) | [Templates](../templates/index.md) | [Setup](../setup/index.md)
 
-Every week, the boat chooses what to Land, limits what it starts, makes Run visible, and learns from what actually happened.
+Speedboat helps AI-accelerated teams finish meaningful work, not just start more work. Each week, the team limits starts, makes Run visible, and proves what Landed.
 
 ## Why now
 
@@ -31,13 +31,13 @@ The cost of starting has collapsed. The cost of finishing (judgement, integratio
 
 Acceleration is easy. Direction is hard.
 
-Speedboat isn't about going faster. It's about starting less, learning faster, building fewer things at once, and landing more meaningful outcomes.
+Speedboat is not about going faster. It is about finishing more meaningful work by starting less, learning faster, and building fewer things at once.
 
 The core question changes:
 
 | FROM | TO |
 |---|---|
-| What tickets are we committing to this sprint? | What meaningful thing are we landing this week, and what do we need to learn or finish to make that happen? |
+| What tickets are we committing to this sprint? | What meaningful thing are we landing this week? |
 
 And the cultural shifts behind it:
 
@@ -93,7 +93,7 @@ These are the parts a team needs first.
 
 Preview, Build, and Run are the work lanes. Land is the outcome layer.
 
-Land is not a planning lane where work sits. It is the moment meaningful work reaches its intended beneficiary, and the outcome we log each week.
+Land is not a planning lane where work sits. It is a meaningful outcome: something reached a real beneficiary, or new evidence changed what happens next.
 
 **Preview / Build / Run -> Landing**
 
@@ -115,6 +115,12 @@ Production-grade work: turning validated or committed ideas into capability that
 - Once a Build item starts, new requests become the next Preview or the next Build. They don't expand the current one.
 - Big bets can span multiple weeks, but they should move through a sequence of meaningful partial Landings rather than staying as one invisible block of Build work.
 
+### What a WIP item means
+
+A WIP item is not a subtask. It is a meaningful unit of work the team is steering: a prototype, a feature slice, a production change, or another outcome-sized piece of work.
+
+The limit applies to active Preview and Build items at that level. A single WIP item may contain multiple tickets, subtasks, or implementation steps underneath it.
+
 ### Big bets and multi-week Build
 
 Some work will take 6–8 weeks. That is normal.
@@ -131,13 +137,13 @@ Examples of partial Landings:
 - observability and rollback path in place
 - risky dependency removed
 
-These are real Landings if they reach an intended beneficiary or materially reduce risk, enable downstream work, or make the next slice possible.
+These are real Landings if they reach a real beneficiary or materially reduce risk, enable downstream work, or make the next slice possible.
 
 If a Build effort runs for more than 2 weeks without a meaningful partial Landing, Route Planning should re-slice it or name explicitly why no such Landing is currently possible.
 
 ### Landings
 
-Landings are the heart of Speedboat: meaningful outcomes reaching their intended beneficiary.
+Landings are the heart of Speedboat: meaningful outcomes reaching a real beneficiary, or new evidence changing what happens next.
 
 - **Customer Landing:** feature live, beta, performance fix, real impact.
 - **Business Landing:** Sales demo ready, customer conversation supported, GTM enabled.
@@ -162,7 +168,7 @@ The honest, visible stream of operational work that keeps the business healthy.
 
 - **Reactive Run:** incidents, urgent bugs, escalations, emergencies.
 - **Proactive Run:** tech debt, dependency upgrades, observability, automation, performance.
-- Target ~20% or less of capacity, but track the actual number honestly.
+- Aim 20% capacity or less, but track the actual number honestly.
 - Repeated reactive work should generate proactive improvement work.
 - Proactive Run can count as a Landing when it creates a meaningful outcome, for example by reducing risk, improving reliability, or making future delivery easier.
 
@@ -188,7 +194,7 @@ Route Planning keeps the next few weeks shapeable. It is part of running Speedbo
 
 | Ceremony | Duration | Purpose |
 |---|---|---|
-| Fortnightly: Route Planning | 60 min | Keep the next 2-4 weeks shaped enough that weekly steering does not become backlog grooming. |
+| Fortnightly: Route Planning | 60 min | Keep the next 2–4 weeks shaped enough that weekly steering does not become backlog grooming. |
 
 Learning Review and Fleet Sync are periodic or adaptive loops.
 
@@ -256,27 +262,7 @@ Over any 4-week window we expect at least some Customer or Business Landings, un
 
 #### Exception protocol
 
-WIP limits are a steering rule, not a wall. Urgent Run, customer escalations, and leadership overrides are allowed, but the team names what is being paused to make room during the next Set Course or Course Check. The Captain owns enforcing this exception protocol. Urgent Run does not violate Speedboat; hiding it does.
-
-### Big bets and multi-week Build
-
-Some work will take 6–8 weeks. That is normal.
-
-Speedboat does not require big bets to finish in a week. It does require them to stay visible, steerable, and sliceable.
-
-Treat a big bet as a multi-week initiative with one umbrella outcome, but shape the active work into the next meaningful partial Landings.
-
-Examples of partial Landings:
-
-- API live behind a feature flag
-- internal beta ready
-- first customer cohort enabled
-- observability and rollback path in place
-- risky dependency removed
-
-These are real Landings if they reach an intended beneficiary or materially reduce risk, enable downstream work, or make the next slice possible.
-
-If a Build effort runs for more than 2 weeks without a meaningful partial Landing, Route Planning should re-slice it or name explicitly why no such Landing is currently possible.
+WIP limits are a steering rule, not a wall. Urgent Run, customer escalations, and leadership overrides are allowed, but the team names what is being paused to make room during the next Set Course or Course Check. The limit applies to meaningful work items, not individual subtasks. The Captain owns enforcing this exception protocol. Urgent Run does not violate Speedboat; hiding it does.
 
 ---
 
@@ -323,11 +309,6 @@ Speedboat is the delivery operating system. Roadmap, customer judgement, and com
 
 ## Principles
 
-1. Customer impact is the unit of progress.
-2. Start less than we think we can.
-3. Preview cheaply, decide quickly.
-4. Prioritise Landing over starting.
-5. Make trade-offs and Run work visible.
-6. Keep the quality bar unchanged.
-7. Use AI to accelerate work, not replace judgement.
-8. In short weeks, reduce scope, not discipline.
+1. Start less than you could.
+2. Make Run visible.
+3. Land outcomes, not activity.

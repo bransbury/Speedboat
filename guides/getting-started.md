@@ -4,14 +4,14 @@
 
 This guide is for a team trying Speedboat next week.
 
-Every week, the boat chooses what to Land, limits what it starts, makes Run visible, and learns from what actually happened.
+Speedboat helps AI-accelerated teams finish meaningful work, not just start more work. In Week 1, the goal is simple: limit starts, make Run visible, and prove what Landed.
 
 You do not need to understand the whole framework before starting.
 
 There are two ways to use this guide:
 
-- **Start this week:** follow only the Week 1 path below.
-- **When the simple version stops being enough:** use [When To Add More Structure](when-to-add-more-structure.html).
+- **Start next week:** follow only the Week 1 path below.
+- **Add more structure later:** use [When To Add More Structure](when-to-add-more-structure.md) when the basic version stops being enough.
 
 **Recommended first read:** [Speedboat on a Page](../docs/one-page-summary.md)
 
@@ -19,18 +19,17 @@ There are two ways to use this guide:
 
 ## Start This Week
 
-If you are trying Speedboat next week, do these things first and ignore the rest until Friday:
+If you are trying Speedboat next week, do only the basics first:
 
-- Make sure the boat is small enough to move quickly. Speedboat works best with about 4-5 engineers.
-- Name the three lightweight roles early: **Product Lead** owns priorities, **Captain** is the engineering lead closest to the day-to-day work, and **Crew** is the rest of the engineering team.
-- Reuse or create one board.
 - Make active work visible as **Preview**, **Build**, or **Run** using swimlanes, labels, or another clear categorisation on the board.
 - Keep your normal execution columns such as **To Do / In Progress / Done**.
-- Pick 1-2 intended Landings for the week.
+- Pick **1–2 intended Landings** for the week.
 - If that choice feels fuzzy, use [How to Choose This Week's Landing](choosing-what-to-land.md).
-- Limit Preview and Build to 3 active items each.
-- Run Monday Set Course, Wednesday Course Check, and Friday Landing.
-- Create a [Landing Log](../templates/landing-log.md) on Friday.
+- Limit active work to **max 3 Preview** and **max 3 Build** items in flight.
+- Run **Set Course** on Monday, **Course Check** on Wednesday, and **The Landing** on Friday.
+- Create a [Landing Log](../templates/landing-log.md) before Friday and update it in The Landing.
+
+You do not need to redesign Jira, clean the whole backlog, or introduce every template. Start the rhythm first.
 
 ---
 
@@ -40,7 +39,7 @@ If the team can answer these questions, you can start.
 
 ### 1. What counts as a Landing?
 
-A Landing is meaningful work reaching its intended beneficiary. There are four types:
+A Landing is a meaningful outcome: something reached a real beneficiary, or new evidence changed what happens next. There are four types:
 
 - **Customer:** value live to a user or customer
 - **Business:** a sales, GTM, or stakeholder outcome
@@ -67,7 +66,9 @@ These are steering points, not status meetings.
 
 ### 4. What is the WIP rule?
 
-Keep at most 3 active Preview items and 3 active Build items.
+Keep at most 3 active Preview items and 3 active Build items in flight.
+
+A WIP item is not a subtask. It is a meaningful unit of work the team is steering: a prototype, a feature slice, a production change, or another outcome-sized piece of work.
 
 If urgent Run breaks that limit, say so explicitly and name what is being paused. Hidden trade-offs are the problem, not the exception itself.
 
@@ -81,7 +82,7 @@ We say what did not land, why, and what happens next: continue, reduce scope, pa
 
 Week 1 is for starting the rhythm, making work visible, and updating the Landing Log.
 
-When you start to feel shaping pain, coordination pain, or reporting pain, use [When To Add More Structure](when-to-add-more-structure.html).
+When you start to feel shaping pain, coordination pain, or reporting pain, use [When To Add More Structure](when-to-add-more-structure.md).
 
 ### 7. Who owns what?
 
@@ -97,13 +98,13 @@ The facilitator may update the Landing Log live, but the Captain is accountable 
 
 This is the minimum viable rollout.
 
-- [ ] Make sure the boat is small enough to move quickly, ideally about 4-5 engineers.
+- [ ] Make sure the boat is small enough to move quickly, ideally about 4–5 engineers.
 - [ ] Create or reuse one board.
 - [ ] Make Preview, Build, and Run visible on the board using swimlanes, labels, or another clear categorisation.
 - [ ] Keep normal Kanban execution columns such as To Do, In Progress, and Done.
 - [ ] Move current in-flight work into the right lane. Do not wait for a clean start.
 - [ ] Create one [Landing Log](../templates/landing-log.md).
-- [ ] Pick 1-2 intended Landings for the week.
+- [ ] Pick 1–2 intended Landings for the week.
 - [ ] Limit Preview and Build to 3 active items each.
 - [ ] Run [Set Course](ceremonies/set-course.md), [Course Check](ceremonies/course-check.md), and [The Landing](ceremonies/the-landing.md).
 - [ ] Update the Landing Log on Friday.
@@ -127,21 +128,21 @@ Make sure you can answer these questions:
 
 You are not trying to be perfect. You are trying to start the rhythm.
 
-- [ ] **Monday:** Run [Set Course](ceremonies/set-course.md). Pick 1-2 intended Landings for the week.
+- [ ] **Monday:** Run [Set Course](ceremonies/set-course.md). Pick 1–2 intended Landings for the week.
 - [ ] **Monday:** If priority is unclear, use [How to Choose This Week's Landing](choosing-what-to-land.md).
 - [ ] **Monday:** Check WIP. If you are above the limits, do not panic. Name what needs to finish before anything new starts.
 - [ ] **Wednesday:** Run [Course Check](ceremonies/course-check.md). Ask what needs to change before Friday.
 - [ ] **Friday:** Run [The Landing](ceremonies/the-landing.md). Record what landed, decide every active Preview, and update the Landing Log.
 - [ ] **After Friday:** Resist the urge to retrospect on the process itself. You have one data point. The process will feel clunky. That's fine. Give it time.
 
-### What "good" looks like in Week 1
+### What good enough looks like in Week 1
 
-- The team can name what lane their work is in
-- WIP limits are visible, even if not yet respected perfectly
-- At least one thing landed (any type)
-- Every active Preview got a Friday decision
-- The Landing Log reflects reality
-- The board reflects reality
+- The team can name what it tried to Land.
+- Current work is visible as Preview, Build, or Run.
+- Run work is no longer hidden.
+- At least one outcome, decision, or learning is recorded.
+- Every active Preview gets a Friday decision.
+- The team knows what to adjust next week.
 
 Give it time. Week 1 is about starting the habit, not proving the model.
 
@@ -151,7 +152,7 @@ Give it time. Week 1 is about starting the habit, not proving the model.
 
 - [ ] **Week 2:** If shaping is already painful, add [Route Planning](ceremonies/route-planning.md). If not, add it within the first few cycles.
 - [ ] **Weeks 2–3:** Tune. Adjust ceremony timing if needed. Fix confusion about which lane work belongs in. Watch for zombie Previews.
-- [ ] **Week 3-4:** If the team needs more structure, use [When To Add More Structure](when-to-add-more-structure.html).
+- [ ] **Weeks 3–4:** If the team needs more structure, use [When To Add More Structure](when-to-add-more-structure.md).
 
 If you continue after the trial, keep the Learning Review as the standing monthly feedback loop.
 

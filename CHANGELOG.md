@@ -4,6 +4,19 @@ All notable changes to Speedboat will be documented here.
 
 ---
 
+## v1.3.0 — 2026-05-17
+
+Documentation consistency and adoption-path update.
+
+- Rewrote the README around a simpler adoption flow: 60-second model, core weekly loop, first-week start path, worked example, and progressive structure guidance
+- Added the Speedboat hero image to the homepage and aligned top-level messaging around `Start Less. Learn Faster. Land More.`
+- Standardized the definition of `Land` across the docs as a meaningful outcome: something reached a real beneficiary, or new evidence changed what happens next
+- Standardized WIP wording across docs, guides, setup, ceremonies, and templates so limits clearly apply to meaningful work items, not individual tickets or subtasks
+- Tightened one-page, getting-started, leadership, FAQ, full-model, AI-agent, lane, and Jira setup guidance to match the simplified homepage language
+- Cleaned up ceremony guides, templates, and index pages to reduce wording drift, normalize formatting, and reinforce the layered adoption path
+
+---
+
 ## v1.2.0 — 2026-05-08
 
 Operating model expansion and messaging update.

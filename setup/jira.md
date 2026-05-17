@@ -5,6 +5,8 @@
 ## Overview
 This guide shows the easiest way to run Speedboat in Jira without admin access.
 
+Speedboat helps AI-accelerated teams finish meaningful work, not just start more work. In Jira, the goal is to make Preview, Build, and Run visible without redesigning the board.
+
 The default recommendation is:
 
 - Use a **Kanban** board
@@ -13,6 +15,8 @@ The default recommendation is:
 - Use **labels** to distinguish Preview, Build, Run, and Landings
 
 This is enough to start the model well. You do not need custom fields, custom workflows, or a dedicated Jira project for Week 1.
+
+A WIP item is not a subtask. It is a meaningful unit of work the team is steering: a prototype, a feature slice, a production change, or another outcome-sized piece of work.
 
 ---
 
@@ -97,6 +101,7 @@ Optional labels:
 ### Recommended label rules
 
 - Every issue should have exactly one of `preview`, `build`, or `run`
+- WIP limits apply to meaningful work items, not individual tickets or subtasks
 - Use `landing` only when the outcome has actually been reached
 - Remove `landing` after the week ends if you only want it for temporary visibility, or keep it if you want historical filtering
 
@@ -152,7 +157,7 @@ labels = run
 
 Do **not** make Land a normal swimlane for everyday work.
 
-Land is not where work sits. It is what you log when work reaches a meaningful outcome.
+Land is not where work sits. It is a meaningful outcome: something reached a real beneficiary, or new evidence changed what happens next.
 
 If useful, you can create a temporary quick filter for:
 
@@ -191,7 +196,7 @@ If you need to start this week, the minimum is:
 
 - Add the team label to all in-scope existing work
 - Add one work-type label to each issue: `preview`, `build`, or `run`
-- Pick 1-2 issues most likely to become Landings this week
+- Pick 1–2 issues most likely to become Landings this week
 - Start the ceremonies
 - Log Landings in the [Landing Log](../templates/landing-log.md)
 
@@ -203,6 +208,8 @@ Do not wait for:
 - automation
 - backlog cleanup
 
+Start the rhythm first.
+
 ---
 
 ## Optional: fuller setup later
@@ -211,7 +218,7 @@ If the trial works and you want better reporting later, you can add:
 
 - custom fields for category, preview type, landing type, and run type
 - more precise JQL filters and dashboards
-- explicit Preview / Build / Land statuses
+- explicit Preview / Build statuses
 - automation for Promoted / Landed transitions
 
 But none of that is required to prove the model.

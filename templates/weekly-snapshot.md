@@ -6,6 +6,8 @@ This is optional.
 
 If a team wants a chat or stakeholder update, derive it from the Landing Log. Do not maintain this as a second weekly system of record.
 
+A Landing is a meaningful outcome: something reached a real beneficiary, or new evidence changed what happens next.
+
 ---
 
 ## When to use this
@@ -39,8 +41,8 @@ The Landing Log remains the single weekly output.
    Estimated Run %: [X]%
 
 📊 WIP
-   Preview: [N] active (limit: 3)
-   Build: [N] active (limit: 3)
+   Preview: [N] active meaningful work items (limit: 3)
+   Build: [N] active meaningful work items (limit: 3)
 
 💡 KEY LEARNING
    [One or two sentences. What did we learn this week that changes how we think about upcoming work?]
@@ -71,8 +73,8 @@ The Landing Log remains the single weekly output.
    Estimated Run %: ~15%
 
 📊 WIP
-   Preview: 2 active (limit: 3)
-   Build: 3 active (limit: 3)
+   Preview: 2 active meaningful work items (limit: 3)
+   Build: 3 active meaningful work items (limit: 3)
 
 💡 KEY LEARNING
    AI summary PoC taught us that any inline AI feature needs <200ms round-trip to feel native.
@@ -87,6 +89,7 @@ The Landing Log remains the single weekly output.
 - **Keep it short.** This is a signal, not a report. If it takes more than 5 minutes, you're over-thinking it.
 - **Be honest about 🔴.** Missed landings aren't failures — hiding them is. Naming them early prevents surprises.
 - **Run % is an estimate.** Don't spend time calculating it precisely. Rough is fine. The trend over weeks is what matters.
+- **WIP counts meaningful work items.** Do not count individual tickets or subtasks.
 - **Post it publicly if you use it.** It is for people who want the weekly signal without opening the full log.
 - **Captain accountability still applies.** If used, the facilitator may draft it, but the Captain is accountable for making sure it matches the Landing Log.
 - **Never update this instead of the Landing Log.** This is downstream communication, not the primary record.

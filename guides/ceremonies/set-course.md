@@ -10,7 +10,7 @@
 
 ## Purpose
 
-Agree what we intend to land this week. Everyone leaves knowing what they're working on and why. This guide assumes a single boat of 4–5 engineers.
+Agree what we intend to Land this week. Everyone leaves knowing what outcome matters most and what work supports it. This guide assumes a single boat of 4–5 engineers.
 
 If the team is unsure what should win this week, use [How to Choose This Week's Landing](../choosing-what-to-land.md).
 
@@ -35,6 +35,8 @@ If the team is unsure what should win this week, use [How to Choose This Week's 
 | 15–20 min | **WIP check** | Are we at the limit? What needs to finish before we start anything new? |
 | 20–25 min | **Run check** | Any reactive work eating capacity? Any proactive Run we should schedule? |
 | 25–30 min | **Confirm ownership** | Every active item has a named owner. Every person can state what they're focused on. |
+
+A WIP item is a meaningful unit of work the team is steering, not an individual ticket or subtask.
 
 ---
 

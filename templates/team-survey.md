@@ -15,7 +15,7 @@ For each question, respondents choose:
 |---|---|---|
 | 1 | I understand the three work lanes (Preview, Build, Run) and the Land outcome layer, and when to use each. | Is the model clear? |
 | 2 | The ceremonies (Set Course, Course Check, The Landing) feel useful, not like overhead. | Are the rituals earning their time? |
-| 3 | I feel more focused on meaningful work than before the trial. | Is WIP limiting working at the individual level? |
+| 3 | I feel more focused on meaningful work than before the trial. | Are WIP limits helping the team focus on meaningful work? |
 | 4 | WIP limits are helping the team finish work, not just frustrating us. | Do limits feel like a tool or a constraint? |
 | 5 | The boundary between Preview and Build is clear to me. | Is the most common confusion point resolved? |
 | 6 | I feel pressure to "perform" or show results every Friday. (Reverse scored) | Is The Landing feeling like a review instead of a check-in? |
@@ -45,7 +45,7 @@ For each question, respondents choose:
 
 - **When:** Final week of the trial (Week 4, or Week 5–6 if running longer). Give the team 2–3 days to respond.
 - **Anonymous:** Non-negotiable. People will not be honest about question 6 if their name is attached.
-- **Response rate:** Aim for 100%. With a team of ~8, every response matters. Chase gently if needed.
+- **Response rate:** Aim for 100%. With a small team, every response matters. Chase gently if needed.
 - **Share results:** Summarise themes and scores with the team before the final decision. Don't make the decision in private. The team earned the transparency.
 
 ---

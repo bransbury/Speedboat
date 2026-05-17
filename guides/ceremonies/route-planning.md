@@ -10,7 +10,7 @@
 
 ## Purpose
 
-Shape the next 2–4 weeks of work. Decide what needs a Preview before we commit to Build. Slice upcoming work into landable chunks.
+Shape the next 2–4 weeks of work. Decide what needs a Preview before we commit to Build. Slice upcoming work into meaningful, landable chunks.
 
 This is a boat-level shaping session. Cross-boat dependencies, shared platform trade-offs, and risks spanning multiple boats should be surfaced here, then handled in Fleet Sync rather than solved by expanding Route Planning.
 
@@ -65,7 +65,7 @@ Route Planning is also the main promotion point from the unshaped backlog into t
 ## Anti-Patterns
 
 - Don't turn Route Planning into detailed task breakdown.
-	Do shape and slice without decomposing into sub-tasks.
+	Do shape and slice without decomposing into subtasks.
 - Don't plan more than 4 weeks ahead in detail.
 	Do shape near-term work and sketch the rest.
 - Don't skip the question of whether something needs a Preview.

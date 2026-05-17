@@ -48,9 +48,11 @@ These decide whether the trial worked.
 
 Use your Landing Log, Weekly Snapshots, and board data.
 
+A WIP item is a meaningful unit of work the team is steering, not an individual ticket or subtask.
+
 | Signal | Target / question | What happened? |
 |---|---|---|
-| WIP held within limits | Mostly stayed within Preview 3 / Build 3 | |
+| WIP held within limits | Mostly stayed within Preview 3 / Build 3 meaningful work items | |
 | Preview decisions | Every active Preview got a Friday decision | |
 | Started vs Landed ratio | Moving closer to 1.0 | |
 | Run visibility | Reactive and proactive Run were visible | |

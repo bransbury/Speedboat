@@ -2,9 +2,9 @@
 
 [Home](../index.md) | [Docs](../docs/index.md) | [Guides](index.md) | [Ceremonies](ceremonies/index.md) | [Templates](../templates/index.md) | [Setup](../setup/index.md)
 
-Use this guide when the simple weekly version of Speedboat stops being enough.
+Use this guide when the core weekly loop is working, but the team needs more structure to keep it healthy.
 
-You do not need all of this before Week 1.
+You do not need all of this to get started. Start the rhythm first.
 
 Add the next layer only when a clear pain appears.
 
@@ -29,7 +29,7 @@ If those pains are not showing up yet, stay with the simpler weekly version.
 
 ### 1. Route Planning
 
-Add [Route Planning](ceremonies/route-planning.md) when the team needs a better way to shape the next 2-4 weeks.
+Add [Route Planning](ceremonies/route-planning.md) when the team needs a better way to shape the next 2–4 weeks.
 
 Use it for:
 
@@ -64,7 +64,7 @@ Use it for:
 
 ### 4. Evaluation And Team Feedback
 
-Add [Trial Evaluation](../templates/trial-evaluation.md) and [Team Survey](../templates/team-survey.md) if you are running a formal 4-6 week trial and need a clear keep / change / stop decision.
+Add [Trial Evaluation](../templates/trial-evaluation.md) and [Team Survey](../templates/team-survey.md) if you are running a formal 4–6 week trial and need a clear keep / change / stop decision.
 
 Use them when:
 
@@ -98,16 +98,18 @@ Do not add it for a single boat.
 
 ---
 
-## New Teams Vs Mature Teams
+## New teams vs mature teams
 
 ### New teams need:
 
 - one board
 - visible Preview / Build / Run categorisation
 - WIP limits
-- one intended Landing each week
+- 1–2 intended Landings each week
 - the Monday / Wednesday / Friday rhythm
 - one Landing Log
+
+WIP limits apply to meaningful work items, not individual tickets or subtasks.
 
 ### More mature teams may add:
 
@@ -124,7 +126,7 @@ The difference is that they need more structure because the pain has appeared.
 
 ---
 
-## A Simple Rule
+## A simple rule
 
 If the weekly rhythm is still giving the team clarity, do not add more structure yet.
 

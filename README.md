@@ -1,236 +1,216 @@
 # Speedboat
 
-[Home](index.md) | [Docs](docs/index.md) | [Guides](guides/index.md) | [Ceremonies](guides/ceremonies/index.md) | [Templates](templates/index.md) | [Setup](setup/index.md) | [Changelog](CHANGELOG.md)
+![Speedboat operating model](assets/speedboat-hero.png)
 
-### Scrum was designed for a world where writing code was the expensive part. That world is gone.
+**Start Less. Learn Faster. Land More.**
 
-In an AI-accelerated environment, teams do not automatically ship faster. They start more.
+Speedboat helps AI-accelerated teams finish meaningful work, not just start more work. It keeps teams focused through a simple weekly loop: limit starts, make Run visible, and prove what Landed.
 
-The cost of starting has collapsed. The cost of finishing has not. AI changed how we write software. Speedboat changes how we land it.
+Every week, the team asks:
 
-**Start less. Learn faster. Land more.**
-
-Speedboat is a post-Scrum operating model for teams where AI has made starting cheap but finishing expensive.
-
-Use [Speedboat on a Page](docs/one-page-summary.md) as the cheat sheet, [Getting Started](guides/getting-started.md) to begin with a team next week, and [Full Guide](docs/model.md) when you want the full rationale, controls, and scaling patterns.
-
-It replaces sprint commitments with a weekly steering rhythm. It replaces velocity with meaningful outcomes. It replaces "how much can we start?" with a harder, better question:
-
-> *What meaningful thing are we landing this week, and what do we need to learn or finish to make that happen?*
+> **What meaningful thing are we landing this week?**
 
 ---
 
-## How It Works
+## The model in 60 seconds
 
-Preview, Build, and Run are the work lanes. Land is the outcome layer.
+Speedboat uses three work lanes and one outcome layer:
 
-- **Preview:** quick prototypes, PoCs, or demos to learn fast
-- **Build:** production-grade work that ships
-- **Run:** operational work that keeps the lights on
-- **Land:** the meaningful outcome when work reaches a real beneficiary
-
-Work moves through three lanes, and the outcomes are logged as Landings:
-
-| Element | What It Is | Constraints |
+| Concept | Plain meaning | What it is for |
 |---|---|---|
-| **Preview** | Quick prototypes, PoCs, or demos to learn fast | Max 3 active. 1–5 day timebox. Decision every Friday. |
-| **Build** | Production-grade work that ships | Max 3 active. Quality bar unchanged. Big bets can span multiple weeks, but should move through partial Landings. |
-| **Run** | Operational work that keeps the lights on | Reactive + Proactive. Aim ≤20%. Track honestly. |
-| **Land** | Meaningful outcomes reaching a real beneficiary | Customer, Business, Platform, or Decision. Logged weekly. |
+| **Preview** | Learn fast | Explore, prototype, test assumptions, and make decisions before committing to production work. |
+| **Build** | Ship value | Deliver production-grade changes that are safe, usable, and valuable. |
+| **Run** | Sustain service | Make operational work visible: incidents, support, reliability, maintenance, compliance, and customer-impacting fixes. |
+| **Land** | Prove progress | Record meaningful outcomes: something reached a real beneficiary, or new evidence changed what happens next. |
 
-Not all Landings mean the same thing. Customer Landings show delivered value. Business Landings show enablement. Platform Landings show capability and resilience. Decision Landings show learning. A healthy team may produce all four, but should not confuse learning or enablement with customer impact.
-
-Three weekly steering points keep the boat moving. Zero status updates.
-
-The default rhythm is Monday / Wednesday / Friday, but teams should shift the cadence to match their working week. The important pattern is start-of-week steering, mid-week course correction, and end-of-week Landing.
-
-| | | |
-|---|---|---|
-| **Monday** | Set Course (30 min) | What are we landing this week? |
-| **Wednesday** | Course Check (15 min) | Still on track? Adjust now. |
-| **Friday** | The Landing (30 min) | What landed, who benefited, what did we learn? |
-
-Route Planning keeps the next few weeks shapeable. It is part of the operating model, but teams can defer the first session if they already have enough shaped work to begin.
-
-| | | |
-|---|---|---|
-| **Fortnightly** | Route Planning (60 min) | Keep the next 2-4 weeks shaped enough that weekly steering does not become backlog grooming. |
-
-Learning Review and Fleet Sync are periodic or adaptive loops.
-
-| | | |
-|---|---|---|
-| **4 wks** | **Learning Review** (30 min) | What is the recent work teaching us about WIP, Landing mix, Run load, and how the model is working? |
-
-If you run multiple boats, add a lightweight **Fleet Sync** every two weeks: 30 minutes, one representative per boat plus product and engineering leadership, focused only on dependencies, shared platform priorities, and cross-boat risks.
-
-New ideas should go into an **unshaped backlog** first. Route Planning shapes that backlog into Preview and Build candidates; urgent work uses Run or the exception protocol.
-
-Speedboat is designed for small, nimble teams of 4–5 engineers. Fewer seats means less coordination overhead, faster decisions, and tighter ownership of what lands.
-
-No standups. No points. No sprint commitments. No burndown charts. No velocity tracking. Just a relentless focus on landing meaningful work.
+The goal is not to do more work.  
+The goal is to **Start Less. Learn Faster. Land More.**
 
 ---
 
-## What Speedboat Is Not
+## A normal Speedboat week
 
-| | |
+| When | Conversation | Purpose |
+|---|---|---|
+| **Monday** | **Set Course** | Decide what the team is trying to Land this week. |
+| **Wednesday** | **Course Check** | Adjust before the week is lost. |
+| **Friday** | **The Landing** | Review what landed, what did not, and what was learned. |
+
+This is the core operating loop.
+
+Route Planning keeps the next few weeks shaped enough that Monday does not become backlog grooming. It is part of sustained Speedboat use, but you can defer the first Route Planning session if the team already has enough shaped work for Week 1.
+
+Learning Review and Fleet Sync are used later to improve and scale the model.
+
+---
+
+## Choose your path
+
+Choose the path that matches what you need:
+
+| I want to... | Start with... |
 |---|---|
-| **Not "move fast and break things"** | Preview can be rough. Build and Land meet production standards. |
-| **Not one-week Scrum** | It's a steering rhythm for continuous flow, not a sprint under a different name. |
-| **Not "ship every Friday or fail"** | A Landing can be a customer feature, a Sales demo, a platform improvement, or a decision to kill a bad idea. The ask is meaningful outcomes, not forced releases. |
-| **Not anti-Scrum for the sake of it** | Scrum solved real problems. Speedboat is for teams where AI has changed the constraints Scrum was designed around. If Scrum is working for you, keep using it. |
+| Understand Speedboat quickly | [Speedboat on a Page](docs/one-page-summary.md) |
+| Try it with a team next week | [Getting Started](guides/getting-started.md) |
+| Classify real work into Preview, Build, or Run | [Which Lane?](guides/which-lane.md) |
+| Understand the full operating model | [Operating Model](docs/model.md) |
+| Set up a Jira board without a process migration | [Jira Setup](setup/jira.md) |
+| Explain it to leadership or run a formal trial | [Leadership Brief](docs/leadership-brief.md) |
+| Understand how AI agents fit | [AI Agents](docs/ai-agents.md) |
+| Answer common objections | [FAQ](docs/faq.md) |
 
 ---
 
-## Who This Is For
+## How to start next week
 
-- Engineering teams using AI tools (Copilot, Cursor, etc.) who notice they're producing more code but not shipping more value
-- Teams where Scrum has degraded into sprint-shaped delivery without the discipline: no points, flexible scope, mixed work
-- Leaders who want to run a low-risk trial of a different operating model without a transformation programme
-- Anyone who's felt the gap between "we're building faster" and "customers are seeing more"
+You do **not** need to understand the whole framework before starting.
+
+For Week 1, use only the basics:
+
+1. Keep your existing board.
+2. Make **Preview**, **Build**, and **Run** visible using labels, swimlanes, or columns.
+3. Pick **1–2 intended Landings** for the week.
+4. Limit active work: default to **max 3 Preview** and **max 3 Build** items in flight. Count meaningful work items, not individual tickets.
+5. Run **Set Course** on Monday.
+6. Run **Course Check** on Wednesday.
+7. Run **The Landing** on Friday.
+8. Record what Landed and what the team learned.
+
+A WIP item is not a subtask. It is a meaningful unit of work the team is steering: a prototype, a feature slice, a production change, or another outcome-sized piece of work.
+
+Do not redesign Jira.  
+Do not clean the whole backlog.  
+Do not introduce every template.  
+Do not start with every ceremony.  
+Do not wait for perfect tooling.
+
+Start the rhythm first.
 
 ---
 
-## Start Here
+## Example week
 
-| You are… | Read this |
+### Monday: intended Landings
+
+The team chooses two intended Landings:
+
+1. **Customer Landing**: saved filters enabled for three beta customers behind a feature flag.
+2. **Decision Landing**: decide whether AI-generated segment suggestions are worth building.
+
+### Work in flight
+
+| Lane | Work |
 |---|---|
-| Someone wanting the fastest orientation | [Speedboat on a Page](docs/one-page-summary.md) |
-| A leader evaluating whether to try this | [Leadership Brief](docs/leadership-brief.md) |
-| A team about to adopt Speedboat | [Getting Started](guides/getting-started.md) |
-| A team wanting the full system explained | [Full Guide](docs/model.md) |
-| A team that has started and needs more structure | [When To Add More Structure](guides/when-to-add-more-structure.md) |
-| A team using AI agents heavily | [AI Agents in Speedboat](docs/ai-agents.md) |
-| A facilitator running a ceremony | [Ceremony Guides](guides/ceremonies/) |
-| Setting up your board | [Jira Setup](setup/jira.md) |
-| Stuck or confused about something | [FAQ & Troubleshooting](docs/faq.md) |
+| **Preview** | Prototype AI-generated segment suggestions. |
+| **Build** | Saved filters beta; billing retry hardening. |
+| **Run** | Investigate timeout alerts; support escalation for import failures. |
 
-## Recommended Paths
+### Wednesday: Course Check
 
-If you want a shorter adoption route instead of browsing the library, start here:
+Run work is taking more time than expected. The team narrows billing retry hardening to diagnostics only and keeps saved filters as the primary Landing.
 
-### I'm new to Speedboat
+### Friday: The Landing
 
-- [Speedboat on a Page](docs/one-page-summary.md)
-- [Getting Started](guides/getting-started.md)
-- [Which Lane?](guides/which-lane.md)
+The team records:
 
-### I'm trying it with a team next week
+- **Customer Landing**: saved filters enabled for three beta customers; support notes shared; first usage review scheduled.
+- **Decision Landing**: AI segment suggestions parked because the Preview showed weak signal quality with current customer data.
+- **Run learning**: timeout root cause identified; follow-up Build item created for next week.
 
-- [Getting Started](guides/getting-started.md)
-- [Jira Setup](setup/jira.md)
-- [Set Course](guides/ceremonies/set-course.md)
-- [Course Check](guides/ceremonies/course-check.md)
-- [The Landing](guides/ceremonies/the-landing.md)
-
-### I'm leading a formal trial
-
-- [Leadership Brief](docs/leadership-brief.md)
-- [Getting Started](guides/getting-started.md)
-- [Trial Evaluation](templates/trial-evaluation.md)
-- [Team Survey](templates/team-survey.md)
-
-### I'm already running it and hitting complexity
-
-- [When To Add More Structure](guides/when-to-add-more-structure.md)
-- [Route Planning](guides/ceremonies/route-planning.md)
-- [Learning Review](guides/ceremonies/learning-review.md)
-- [Fleet Sync](guides/ceremonies/fleet-sync.md)
+That is a successful Speedboat week even though not everything finished.
 
 ---
 
-## What's In This Repo
+## What good enough looks like in Week 1
 
-```
-speedboat/
-├── docs/
-│   ├── model.md                    # Full guide to the operating model
-│   ├── one-page-summary.md         # Speedboat on a page / cheat sheet
-│   ├── ai-agents.md                # How AI agents fit within the lanes
-│   ├── leadership-brief.md         # Proposal for leadership buy-in
-│   └── faq.md                      # Common questions and troubleshooting
-├── guides/
-│   ├── getting-started.md          # New-team guide: start next week
-│   ├── when-to-add-more-structure.md # When the simple version stops being enough
-│   ├── which-lane.md               # Decision tree: where does this work belong?
-│   ├── facilitation-rotation.md    # How to rotate ceremony facilitation
-│   └── ceremonies/
-│       ├── set-course.md           # Monday
-│       ├── course-check.md         # Wednesday
-│       ├── the-landing.md          # Friday
-│       ├── learning-review.md      # Every 4 weeks
-│       ├── route-planning.md       # Fortnightly, per boat
-│       └── fleet-sync.md           # Fortnightly, multi-boat only
-├── templates/
-│   ├── landing-log.md              # Track what landed, for whom, and why
-│   ├── weekly-snapshot.md          # Friday summary for your team channel
-│   ├── monthly-stakeholder-summary.md # 4-week outward summary for leadership and stakeholders
-│   ├── preview-decision-record.md  # Capture every Preview decision
-│   ├── trial-evaluation.md         # End-of-trial readout structure
-│   └── team-survey.md             # Anonymous team feedback survey
-├── setup/
-│   └── jira.md                     # Step-by-step board configuration
-├── CHANGELOG.md
-└── LICENSE                         # CC-BY-4.0
-```
+Week 1 is not about perfect process. It is about creating visibility and learning.
+
+Good enough means:
+
+- the team can name what it tried to Land;
+- current work is visible as Preview, Build, or Run;
+- Run work is no longer hidden;
+- the team started less than it otherwise would have;
+- at least one outcome, decision, or learning was recorded;
+- the team knows what to adjust next week.
 
 ---
 
-## Principles
+## Common first-week mistakes
 
-1. Customer impact is the unit of progress
-2. Start less than we think we can
-3. Preview cheaply, decide quickly
-4. Prioritise Landing over starting
-5. Make trade-offs and Run work visible
-6. Keep the quality bar unchanged
-7. Use AI to accelerate work, not replace judgement
-8. In short weeks, reduce scope, not discipline
+### 1. Treating The Landing as a status meeting
+
+Do not go person by person.
+
+Ask:
+
+> What changed for a beneficiary?  
+> What reached a usable state?  
+> What did we learn that changes what we do next?
+
+### 2. Letting Preview run forever
+
+Preview should end in a decision:
+
+- **promote** to Build;
+- **continue** for one more explicit timebox;
+- **park** for later;
+- **kill** because the evidence does not support continuing.
+
+### 3. Hiding Run work
+
+Run is not a failure. Hidden Run is the problem.
+
+If incidents, support, maintenance, reliability, or customer-impacting fixes consume time, make them visible and adjust the week.
 
 ---
 
-## Roles
+## How Speedboat grows
 
-- **Product Lead:** owns product priority and intended outcomes.
-- **Captain:** the engineering lead for the boat. Owns WIP discipline, escalation, incident trade-offs, and overall boat health.
-- **Crew:** everyone contributes across Preview, Build, Run, and rotating facilitation.
+Speedboat is simple to start, but not simplistic to run.
 
-Facilitation rotates, but the Captain remains accountable for board hygiene, ceremony quality, and keeping the boat healthy.
+| Stage | Focus | What to add |
+|---|---|---|
+| **Week 1: Start** | Use the core loop. | Preview, Build, Run, Land; Set Course, Course Check, The Landing. |
+| **Weeks 2–3: Sustain** | Keep future work shaped. | Route Planning, Landing Log, Weekly Snapshot. |
+| **Weeks 4+: Improve** | Tune the operating model. | Learning Review, landing mix, WIP diagnostics, team feedback. |
+| **Multiple teams: Scale** | Coordinate across boats. | Fleet Sync, stakeholder summaries, shared dependency visibility. |
+
+A useful way to remember this:
+
+> **Start with weekly steering. Sustain it with Route Planning. Improve it with Learning Review. Scale it with Fleet Sync.**
 
 ---
 
-## Decision Rights
+## Core principles
 
-| Decision | Default owner |
+1. **Start less than you could.**  
+   AI makes starting cheap. Speedboat protects finishing.
+
+2. **Make Run visible.**  
+   Operational reality is part of the system, not an interruption to it.
+
+3. **Land outcomes, not activity.**  
+   Progress means something meaningful reached a beneficiary or changed what happens next.
+
+---
+
+## Repository structure
+
+| Area | Purpose |
 |---|---|
-| Intended Landing for the week | Product Lead and Captain together |
-| Preview decision: kill / park / continue / promote | Product Lead and Captain together |
-| Production readiness for Build | Captain / Engineering |
-| Priority of what enters Preview or Build | Product Lead |
-| Run prioritisation during incidents | Captain |
-
-When Product Lead and Captain disagree, resolve it explicitly and quickly. If it remains unresolved by the end of the working day, escalate to the next product and engineering leaders rather than leaving work in limbo.
-
-If you run multiple boats, use a lightweight Fleet Sync to handle cross-boat dependencies, shared platform priorities, and risks that affect more than one boat.
+| [`docs/`](docs/index.md) | Core model, rationale, FAQ, leadership material, and AI-agent guidance. |
+| [`guides/`](guides/index.md) | Practical adoption guides, including getting started and choosing the right lane. |
+| [`guides/ceremonies/`](guides/ceremonies/index.md) | Facilitation guides for Set Course, Course Check, The Landing, Route Planning, Learning Review, and Fleet Sync. |
+| [`templates/`](templates/index.md) | Lightweight templates for Landings, snapshots, decisions, trials, and stakeholder communication. |
+| [`setup/`](setup/index.md) | Tooling setup guidance, including Jira. |
 
 ---
 
-## Adapting Speedboat
+## License
 
-This repo is a starting point, not a prescription. Things you should change for your context:
+Speedboat is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
 
-- **Team size:** Speedboat is designed for 4–5 engineers per team. If you have more, run multiple boats rather than one larger one.
-- **WIP limits:** 3/3 assumes a team of 4–5. Adjust proportionally if your boat is smaller.
-- **Ceremony timing:** Monday/Wednesday/Friday assumes a co-located or overlapping-timezone team. Shift as needed.
-- **Landing types:** add types that matter to your business. Remove ones that don't.
-- **Run target:** 20% is a starting point. If your system is unstable, it might be 40%. Be honest about it.
-- **Trial length:** 4-6 weeks is enough to learn. Shorter is too noisy. Longer delays the decision.
+You are free to share and adapt the material for any purpose, including commercial use, as long as appropriate credit is given.
 
-Fork the repo. Make it yours. If you learn something useful, consider opening a PR or sharing what you changed.
-
----
-
-## Licence
-
-[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) — use it, adapt it, share it. Attribution appreciated.
+Attribution: **Speedboat by Marcus Bransbury** — <https://github.com/bransbury/Speedboat>
