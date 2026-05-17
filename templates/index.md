@@ -6,6 +6,8 @@ title: Speedboat Templates
 
 # Templates
 
+Use templates to record what Landed, share lightweight updates, and evaluate whether the model is working.
+
 - [Landing Log](landing-log.md)
 - [Weekly Snapshot](weekly-snapshot.md)
 - [Monthly Stakeholder Summary](monthly-stakeholder-summary.md)

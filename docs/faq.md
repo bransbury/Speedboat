@@ -28,6 +28,12 @@ The point of the weekly cadence is not pressure. It is faster steering.
 
 Gone. Speedboat measures outcomes (Landings), not effort estimates. If you want to understand throughput, look at the Started vs. Landed ratio and Build age over time. These tell you more than points ever did.
 
+### "What counts as one WIP item?"
+
+A WIP item is not a subtask. It is a meaningful unit of work the team is steering: a prototype, a feature slice, a production change, or another outcome-sized piece of work.
+
+That means the limit applies to active Preview and Build items at the level discussed in weekly steering, not to every child ticket in Jira. One Build item may contain multiple engineering tickets or subtasks underneath it.
+
 ### "What if my team is bigger than 5?"
 
 Split into multiple boats, each with its own board and rhythm. Keep Route Planning per boat, and add a lightweight Fleet Sync every two weeks for cross-boat dependencies, shared platform priorities, and multi-boat risks rather than scaling a single ceremony set.
@@ -94,7 +100,7 @@ If a big bet has gone more than 2 weeks without any meaningful partial Landing, 
 
 ### "Does this work for platform/infrastructure teams?"
 
-The lanes and rhythm work for any team. The Landing types might shift: platform teams will have more Platform Landings and fewer Customer Landings, and that's expected. The key question remains the same: is meaningful work reaching its intended beneficiary?
+The lanes and rhythm work for any team. The Landing types might shift: platform teams will have more Platform Landings and fewer Customer Landings, and that's expected. The key question remains the same: did something meaningful reach a real beneficiary, or did new evidence change what happens next?
 
 ---
 
@@ -168,6 +174,6 @@ Yes. The most portable pieces:
 - The three work lanes plus Land outcome framing (even within a sprint model)
 - Friday Preview decisions (add to any existing cadence)
 - The Landing Log (works alongside any process)
-- The "start less, land more" principle (just a mindset shift)
+- The "Start Less. Learn Faster. Land More." principle (just a mindset shift)
 
 But the pieces work best together. The rhythm reinforces the lanes, the lanes reinforce the principles.

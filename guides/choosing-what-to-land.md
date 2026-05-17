@@ -6,6 +6,8 @@ Use this when the team asks: what should we try to Land this week?
 
 This is a weekly steering aid for Set Course. It is not a replacement for Route Planning or general backlog prioritisation.
 
+A Landing is a meaningful outcome: something reached a real beneficiary, or new evidence changed what happens next.
+
 The rule is simple:
 
 **Choose the highest-value Landing you can credibly get to a real beneficiary this week, after making urgent Run explicit.**

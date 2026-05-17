@@ -10,7 +10,7 @@
 
 ## Purpose
 
-Surface blockers early enough to course-correct before the week is lost. This is not a status update — it's a steering check.
+Surface blockers early enough to course-correct before the week is lost. This is not a status update. It is a steering check.
 
 Use this at the midpoint of your working week. Wednesday is the default, not a requirement.
 
@@ -28,7 +28,7 @@ Use this at the midpoint of your working week. Wednesday is the default, not a r
 | Time | Activity | Detail |
 |---|---|---|
 | 0–10 min | **For each intended Landing: Green / Amber / Red** | On track? At risk? Blocked? Only discuss Amber and Red. |
-| 10–15 min | **Unblock or adjust** | For anything at risk: what would unblock it? Can we reduce scope and still land something meaningful? Do we need to escalate? |
+| 10–15 min | **Unblock or adjust** | For anything at risk: what would unblock it? Can we reduce scope and still Land something meaningful this week? Do we need to escalate? |
 
 ---
 

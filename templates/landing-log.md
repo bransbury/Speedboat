@@ -10,6 +10,8 @@ The facilitator may update it live, but the Captain is accountable for making su
 
 Start with the simple weekly log below. Add the optional detail only when the team needs it.
 
+A Landing is a meaningful outcome: something reached a real beneficiary, or new evidence changed what happens next.
+
 Use the last 4 Landing Logs when preparing the monthly stakeholder summary.
 
 Replace the sample rows below with your own entries each week.

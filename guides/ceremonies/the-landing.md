@@ -10,9 +10,9 @@
 
 ## Purpose
 
-Show what landed, decide every active Preview, capture learning. This is the heartbeat of Speedboat — the moment where progress becomes visible and decisions get made.
+Show what landed, decide every active Preview, and capture learning. This is the heartbeat of Speedboat: the moment where progress becomes visible and decisions get made.
 
-A Landing is not a queue of work. It is the moment completed work becomes visible in terms of beneficiary and outcome.
+A Landing is a meaningful outcome: something reached a real beneficiary, or new evidence changed what happens next.
 
 ---
 
@@ -29,12 +29,14 @@ A Landing is not a queue of work. It is the moment completed work becomes visibl
 
 | Time | Activity | Detail |
 |---|---|---|
-| 0–10 min | **Landings** | Walk each landed item. For each: what shipped, who benefits, what type, what changed? Update the Landing Log live. |
+| 0–10 min | **Landings** | Walk each landed item. For each: what landed, who benefited, what type, and what changed? Update the Landing Log live. |
 | 10–20 min | **Preview Decisions** | For every active Preview: **Kill / Park / Continue / Promote**. No Preview leaves without a decision. If promoting, assign a Code-Reuse Label. If killing/parking, state what we learned. Max one continuation per Preview (no indefinite "continue"). |
 | 20–25 min | **Learning** | What did we learn this week? What should we adjust next week? One or two points, not a full Learning Review. |
 | 25–30 min | **Run Check** | What reactive work hit us? Was it expected? Should any of it generate proactive Run work to prevent recurrence? |
 
 The Landing captures tactical learning. Use the separate Learning Review every 4 weeks for a wider look at whether the model, WIP limits, and Landing mix are working.
+
+When you note WIP in the weekly snapshot, count meaningful work items, not individual tickets or subtasks.
 
 ---
 

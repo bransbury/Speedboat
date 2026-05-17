@@ -6,16 +6,18 @@
 
 | | |
 |---|---|
-| **Author** | Marcus Bransbury, [Job title goes here] |
+| **Author** | Marcus Bransbury |
 | **For** | VP Engineering / CPTO |
-| **Status** | Proposal: 4–6 week trial |
+| **Status** | Proposal: low-risk 4–6 week trial |
 | **Length** | 3-minute read |
 
 ---
 
 ## Executive summary
 
-Speedboat converts AI acceleration into customer impact by changing the question we ask each week: from how much we can start to what we can meaningfully land.
+Speedboat helps AI-accelerated teams finish meaningful work, not just start more work.
+
+It gives teams a simple weekly loop: limit starts, make Run visible, and prove what Landed.
 
 AI has materially changed the economics of software delivery on our team. Reading code, prototyping, refactoring, and producing demoable software are all dramatically faster. Our current loose two-week Scrum was designed for a slower implementation phase and risks turning that AI-driven speed into more half-finished work, more prototypes, more demos, without proportionally more customer impact.
 
@@ -23,7 +25,7 @@ Speedboat is a lightweight weekly operating model with three work lanes (Preview
 
 I've aligned with our Product lead on the Preview and Landing model; they're supportive of running this as a trial.
 
-I'd like to run a 4–6 week trial inside my engineering group ([~x] engineers split into [y] teams) and report back. The trial is low-risk, requires no tooling investment, and is reversible. The intent is to learn whether this approach delivers more meaningful outcomes per week than our current sprint model.
+I'd like to run a 4–6 week trial inside my engineering group and report back. The trial is low-risk, requires no tooling investment, and is reversible. The intent is to learn whether this approach delivers more meaningful outcomes per week than our current sprint model.
 
 ---
 
@@ -48,12 +50,12 @@ The cost of starting has collapsed. The cost of finishing (judgement, integratio
 
 | Element | What It Is | Constraints |
 |---|---|---|
-| **Preview** | Quick prototypes, PoCs or demos to learn and enable conversations | Max 2–3 active. 1–5 day timebox. Decision every Friday. |
-| **Build** | Production-grade work | Max 2–3 active. Standards unchanged. |
-| **Run** | Visible operational work, split reactive/proactive | Aim ~20% capacity, track honestly. |
-| **Land** | The outcome when meaningful work reaches its beneficiary | Customer, Business, Platform, or Decision. Logged weekly. |
+| **Preview** | Quick prototypes, PoCs or demos to learn and enable conversations | Max 3 active. 1–5 day timebox. Decision every Friday. |
+| **Build** | Production-grade work | Max 3 active. Standards unchanged. |
+| **Run** | Visible operational work, split reactive/proactive | Aim 20% capacity, track honestly. |
+| **Land** | A meaningful outcome: something reached a real beneficiary, or new evidence changed what happens next | Customer, Business, Platform, or Decision. Logged weekly. |
 
-Not all Landings mean the same thing. Customer Landings show delivered value. Business Landings show enablement. Platform Landings show capability and resilience. Decision Landings show learning. A healthy team may produce all four, but should not confuse learning or enablement with customer impact.
+Not all Landings mean the same thing. Customer Landings show delivered value. Business Landings show enablement. Platform Landings show capability and resilience. Decision Landings show learning. A healthy team may produce all four, but learning or enablement should not be mistaken for customer impact.
 
 ### Weekly rhythm: replaces sprint planning and standups
 
@@ -66,7 +68,7 @@ The default rhythm is Monday / Wednesday / Friday, but teams should shift the ca
 | Friday: The Landing | 30 min | Show outcomes, decide every Preview, capture learning. |
 | Fortnightly: Route Planning | 60 min | Shape upcoming work and what needs Preview. |
 
-The core question shifts from "What tickets are we committing to this sprint?" to "What meaningful thing are we landing this week, and what do we need to learn or finish to make that happen?"
+The core question shifts from "What tickets are we committing to this sprint?" to "What meaningful thing are we landing this week?"
 
 ---
 
@@ -108,6 +110,8 @@ If any primary indicator moves the wrong way by the evaluation week with no good
 
 ### Diagnostic indicators: tracked internally to explain movement in the primary set
 
+A WIP item is not a subtask. It is a meaningful unit of work the team is steering: a prototype, a feature slice, a production change, or another outcome-sized piece of work.
+
 - WIP held within limits (≤3 Preview, ≤3 Build) for most of the trial.
 - Every active Preview receives a Friday decision. No zombie Previews carry past one continuation.
 - Started-vs-Landed ratio trends toward 1.0. We stop starting more than we finish.
@@ -136,7 +140,7 @@ Over any 4-week window we expect at least some Customer or Business Landings, un
 
 ### Exception protocol
 
-WIP limits are a steering rule, not a wall. Urgent Run, customer escalations, and leadership overrides are allowed, but the team names what is being paused to make room. Urgent Run does not violate Speedboat; hiding it does.
+WIP limits are a steering rule, not a wall. Urgent Run, customer escalations, and leadership overrides are allowed, but the team names what is being paused to make room. The limit applies to meaningful work items, not individual subtasks. Urgent Run does not violate Speedboat; hiding it does.
 
 ---
 

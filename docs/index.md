@@ -6,6 +6,10 @@ title: Speedboat Docs
 
 # Docs
 
+Speedboat helps AI-accelerated teams finish meaningful work, not just start more work.
+
+Use these docs when you want the model, the rationale behind it, or answers to common objections.
+
 - [Speedboat on a Page](one-page-summary.md)
 - [Getting Started](../guides/getting-started.md)
 - [Full Guide](model.md)

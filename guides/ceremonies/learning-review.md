@@ -22,6 +22,7 @@ This is not a blame session and not a generic "what was good or bad" retrospecti
 - [ ] Review the last 4 weeks of the Landing Log
 - [ ] Pull the last 4 Weekly Snapshots
 - [ ] Note obvious patterns in WIP, Run load, and Landing mix
+- [ ] When reviewing WIP, count meaningful work items, not individual tickets
 - [ ] Bring 1–2 questions where the data suggests friction or drift
 
 ---

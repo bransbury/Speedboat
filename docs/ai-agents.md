@@ -6,6 +6,8 @@ Use this guide if your team is using autonomous or semi-autonomous AI agents alo
 
 The short version: AI agents can accelerate work inside every lane, but they do not change who owns decisions or lower the finishing cost.
 
+Speedboat helps AI-accelerated teams finish meaningful work, not just start more work. AI agents are useful when they help the team learn faster, make Run visible faster, and prove what Landed without weakening human judgement.
+
 ---
 
 ## Core principle
@@ -16,7 +18,7 @@ They can explore, draft, compare, generate, refactor, summarise, and automate pa
 
 Speedboat already assumes that starting work is cheap and finishing work is expensive. AI agents make that asymmetry stronger.
 
-If agents generate more code, prototypes, fixes, docs, or upgrade proposals than the team can properly review and land, the system slows down. The queue moves from "work to start" to "work that now needs judgement, integration, and review."
+If agents generate more code, prototypes, fixes, docs, or upgrade proposals than the team can properly review and Land, the system slows down. The queue moves from "work to start" to "work that now needs judgement, integration, and review."
 
 The quality bar stays the same.
 
@@ -96,6 +98,7 @@ Do not let automation blur the deployment decision. Faster triage is good. Unown
 ## Guardrails
 
 - Keep agent-generated work inside the same WIP limits as any other work.
+- A WIP item is a meaningful unit of work the team is steering, not an individual ticket or subtask.
 - Prefer agents for bounded tasks with clear success criteria.
 - Count review, integration, and validation as real effort.
 - Do not treat agent output as production-ready by default.
