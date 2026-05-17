@@ -3,8 +3,6 @@ title: Speedboat
 permalink: /
 ---
 
-# Speedboat
-
 ![Speedboat operating model](assets/speedboat-hero.png)
 
 **Start Less. Learn Faster. Land More.**
